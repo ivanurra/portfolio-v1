@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import Footer from '../components/Footer';
 
 function Home() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>CODE WITH IVAN</title>
       </Head>
 
       <Navbar />
@@ -14,10 +15,11 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h1 className="title">Hi, I'm Iván Urra</h1>
-            <p className="description">Full Stack Web Developer.</p>
-
+            <p className="description">Hi, my name is</p>
+            <h1 className="title">Iván Urra.</h1>
+            <p className="description">I'm a Full Stack Web Developer.</p>
             <Link href="/contact"><a className="cta">Contact me</a></Link>
+            <Link href="/ResumePortfolio.pdf"><a className="cta">Resume</a></Link>
           </div>
 
           <div className="image-wrapper">
@@ -39,6 +41,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

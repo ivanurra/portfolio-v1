@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -60,6 +61,7 @@ function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import Footer from '../components/Footer';
 
 function Portfolio() {
 	return (
@@ -16,25 +17,24 @@ function Portfolio() {
 			    <div className="text-wrapper w-full">
 			      <h1 className="title">Portfolio</h1>
 			      <p className="description">
-				  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              		maximus eu quam et consectetur. Morbi vel dictum arcu.
+				  Some Things I’ve Built.
 			      </p>
 
 			      <div className="portfolio-wrapper">
 			      	<div className="portfolio-item">
-			      		<img src="/chitchat.png" className="portfolio-image" />
+			      		<img src="/cinemabox1.png" className="portfolio-image" />
 
-			      		<h4 className="portfolio-name">Cinema Box</h4>
+			      		<h4 className="portfolio-name">Cinemabox</h4>
 			      		<div className="portfolio-category">Web App</div>
 			      	</div>
 			      	<div className="portfolio-item">
-			      		<img src="/kajian.jpg" className="portfolio-image" />
+			      		<img src="/cocktailguide2.png" className="portfolio-image" />
 
 			      		<h4 className="portfolio-name">Cocktail Guide</h4>
 			      		<div className="portfolio-category">Web App</div>
 			      	</div>
 					<div className="portfolio-item">
-			      		<img src="/chitchat.png" className="portfolio-image" />
+			      		<img src="/politico2.png" className="portfolio-image" />
 
 			      		<h4 className="portfolio-name">El Politico</h4>
 			      		<div className="portfolio-category">Web Game</div>
@@ -43,6 +43,7 @@ function Portfolio() {
 		      </div>
 	      </div>
 			</section>
+			<Footer />
 		</>
 	);
 }

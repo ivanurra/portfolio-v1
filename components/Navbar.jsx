@@ -3,11 +3,9 @@ import { withRouter } from 'next/router';
 
 function Navbar({ router }) {
   const navs = [
-    { text: 'Home', href: '/' },
     { text: 'About', href: '/about' },
     { text: 'Portfolio', href: '/portfolio' },
     { text: 'Contact', href: '/contact' },
-    // { text: '', href: '' },
   ];
 
   return (
