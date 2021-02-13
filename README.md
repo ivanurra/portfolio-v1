@@ -1,5 +1,5 @@
 # Iván Urra - Portfolio
-# Soon
+# Coming Soon
 
 ## Getting Started
 
