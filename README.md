@@ -1,4 +1,8 @@
-# Iván Urra - Portfolio
+# Code with Ivan - Portfolio
+
+Portfolio built with NextJS.
+Made by Ivan Urra.
+
 
 ## Getting Started
 
