@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>CODE WITH IVAN</title>
+        <title>Code with Ivan</title>
       </Head>
 
       <Navbar />

@@ -143,18 +143,6 @@ a[href] {
 	}
 }
 
-.contact-links {
-	padding: 0;
-	padding-left: 15px;
-	margin-top: -10px;
-	list-style: square;
-
-	.contact-item {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-}
-
 /* footer */
 
 .footer {
@@ -189,6 +177,44 @@ a[href] {
   }
 
   .footer-name{
+	  text-align: center;
+	  font-size: 14px;
+  }
+
+  /* contact */
+
+  .contact {
+	margin: 50px 0 0 0;
+	// padding: 15px 0;
+	width: 100%;
+	
+  }
+  
+  .contact ul {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .contact li {
+	padding: 10px 10px;
+  }
+  
+  .contact a {
+	font-size: 35px;
+	cursor: pointer;
+  }
+  
+  .contact a:hover {
+	transition: color 0.3s linear;
+  }
+  
+  .contact ul li {
+	list-style: none;
+  }
+
+  .contact-name{
 	  text-align: center;
 	  font-size: 14px;
   }

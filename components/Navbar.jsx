@@ -6,6 +6,7 @@ function Navbar({ router }) {
     { text: 'About', href: '/about' },
     { text: 'Portfolio', href: '/portfolio' },
     { text: 'Contact', href: '/contact' },
+    { text: 'Resume', href:"/ResumePortfolio.pdf" },
   ];
 
   return (

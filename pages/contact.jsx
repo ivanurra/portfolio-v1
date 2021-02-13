@@ -24,7 +24,7 @@ function Contact() {
 							<li className="contact-item">Github: https://github.com/ivanurra</li>
 							<li className="contact-item">LinkedIn: https://www.linkedin.com/in/ivanurra/</li>
 						</ul> */}
-						<footer className="footer">
+						<footer className="contact">
 						<nav>
 							<ul>
 
