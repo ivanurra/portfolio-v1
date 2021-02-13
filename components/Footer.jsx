@@ -43,10 +43,10 @@ function Footer() {
                   <i className="fab fa-linkedin"></i>
                 </a>
               </li>
-
             </ul>
+            <p className="footer-name">Designed & Built by Ivan Urra</p>
           </nav>
-          <p className="footer-name">Designed & Built by Ivan Urra</p>
+          
         </footer>
       );
 }

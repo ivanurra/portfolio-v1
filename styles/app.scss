@@ -81,12 +81,13 @@ a[href] {
 		}
 
 		.title {
-			font-size: 48px;
+			font-size: 34px;
 			margin-top: 0;
 			margin-bottom: 10px;
 		}
 
 		.description {
+			margin-top: 30px;
 			font-size: 18px;
 		}
 
@@ -129,7 +130,7 @@ a[href] {
 		}
 
 		.portfolio-name {
-			font-size: 24px;
+			font-size: 28px;
 			margin-top: 10px;
 			margin-bottom: 10px;
 			text-transform: capitalize;
@@ -144,8 +145,6 @@ a[href] {
 /* footer */
 
 .footer {
-	margin: 50px 0 0 0;
-	padding: 15px 0;
 	width: 100%;
 	border-top: 1px solid #eaeaea;
   }
@@ -175,8 +174,12 @@ a[href] {
   }
 
   .footer-name{
-	  text-align: center;
-	  font-size: 14px;
+	width: 103%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
   }
 
   /* contact */
@@ -222,8 +225,19 @@ a[href] {
   #skills li {
 	font-size: 16px;
 	width: 150px;
-	height: 50px;
+	height: 25px;
 	margin-top: 10px;
 	margin-right: 10px;
 	display: inline-block;
+  }
+
+/* portfolio */
+
+  .fa-external-link-alt{
+	font-size: 24px;  
+	margin-right: 20px;
+  }
+
+  .fa-github{
+	font-size: 24px;  
   }

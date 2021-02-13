@@ -2,6 +2,11 @@ import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Footer from "../components/Footer";
 
+import "@fortawesome/fontawesome-free/js/fontawesome";
+import "@fortawesome/fontawesome-free/js/solid";
+import "@fortawesome/fontawesome-free/js/regular";
+import "@fortawesome/fontawesome-free/js/brands";
+
 function About() {
   return (
     <>
@@ -14,7 +19,7 @@ function About() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-8">
-            <h1 className="title">About</h1>
+            <h1 className="title">About Me</h1>
             <p className="description">
                 Hello! I'm Iván, a Full Stack Web Developer based in Madrid.
                 I enjoy creating things that live on the internet. I am very 
@@ -31,17 +36,16 @@ function About() {
                 <br/>
 
                 <ul id="skills">
-                  <li>JavaScript (ES6+)</li>
-                  <li>React</li>
-                  <li>Angular</li>
-                  <li>NextJS & GatsbyJS</li>
-                  <li>TypeScript</li>
-                  <li>HTML & (S)CSS</li>
-                  <li>Node JS</li>
-                  <li>Express JS</li>
-                  <li>MongoDB</li>
+                  <li><i class="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
+                  <li><i class="fas fa-caret-right"></i>  React</li>
+                  <li><i class="fas fa-caret-right"></i>  Angular</li>
+                  <li><i class="fas fa-caret-right"></i>  NextJS & GatsbyJS</li>
+                  <li><i class="fas fa-caret-right"></i>  TypeScript</li>
+                  <li><i class="fas fa-caret-right"></i>  HTML & (S)CSS</li>
+                  <li><i class="fas fa-caret-right"></i>  Node JS</li>
+                  <li><i class="fas fa-caret-right"></i>  Express JS</li>
+                  <li><i class="fas fa-caret-right"></i>  MongoDB</li>
                 </ul>
-
             </p>
           </div>
           
