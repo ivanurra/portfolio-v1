@@ -10,8 +10,7 @@ a[href] {
 }
 
 .container {
-	// width: 980px;
-	width: 80%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -88,8 +87,7 @@ a[href] {
 		}
 
 		.description {
-			font-size: 22px;
-			line-height: 40px;
+			font-size: 18px;
 		}
 
 		.cta {
@@ -217,4 +215,15 @@ a[href] {
   .contact-name{
 	  text-align: center;
 	  font-size: 14px;
+  }
+
+/* skills */
+
+  #skills li {
+	font-size: 16px;
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
   }

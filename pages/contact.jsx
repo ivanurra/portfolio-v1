@@ -1,7 +1,5 @@
-import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
-import Footer from '../components/Footer';
 
 function Contact() {
 	return (
@@ -19,11 +17,6 @@ function Contact() {
 						<p className="description">
 							My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
 						</p>
-						{/* <ul className="contact-links">
-							<li className="contact-item">Email: ivan.urra.dev@gmail.com</li>
-							<li className="contact-item">Github: https://github.com/ivanurra</li>
-							<li className="contact-item">LinkedIn: https://www.linkedin.com/in/ivanurra/</li>
-						</ul> */}
 						<footer className="contact">
 						<nav>
 							<ul>
