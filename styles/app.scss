@@ -100,7 +100,7 @@ a[href] {
 			text-decoration: none;
 			border-radius: 5px;
 			transition: transform .3s;
-			margin-right: 10px;
+			margin-right: 12px;
 
 			&:hover {
 				transform: scale(1.1);
@@ -240,4 +240,19 @@ a[href] {
 
   .fa-github{
 	font-size: 24px;  
+  }
+
+  .gitlogo{
+	margin-right: 9px;
+	font-size: 20px; 
+  }
+
+  /* Landing */
+
+  .fa-paper-plane{
+	margin-right: 9px;
+  }
+
+  .fa-file-alt{
+	margin-right: 9px;
   }

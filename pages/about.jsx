@@ -1,7 +1,4 @@
-import Navbar from "../components/Navbar";
 import Head from "next/head";
-import Footer from "../components/Footer";
-
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
@@ -13,9 +10,6 @@ function About() {
       <Head>
         <title>About</title>
       </Head>
-
-      {/* <Navbar /> */}
-
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-8">
@@ -36,27 +30,24 @@ function About() {
                 <br/>
 
                 <ul id="skills">
-                  <li><i class="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
-                  <li><i class="fas fa-caret-right"></i>  React</li>
-                  <li><i class="fas fa-caret-right"></i>  Angular</li>
-                  <li><i class="fas fa-caret-right"></i>  NextJS & GatsbyJS</li>
-                  <li><i class="fas fa-caret-right"></i>  TypeScript</li>
-                  <li><i class="fas fa-caret-right"></i>  HTML & (S)CSS</li>
-                  <li><i class="fas fa-caret-right"></i>  Node JS</li>
-                  <li><i class="fas fa-caret-right"></i>  Express JS</li>
-                  <li><i class="fas fa-caret-right"></i>  MongoDB</li>
+                  <li><i className="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
+                  <li><i className="fas fa-caret-right"></i>  React</li>
+                  <li><i className="fas fa-caret-right"></i>  Angular</li>
+                  <li><i className="fas fa-caret-right"></i>  NextJS & GatsbyJS</li>
+                  <li><i className="fas fa-caret-right"></i>  TypeScript</li>
+                  <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
+                  <li><i className="fas fa-caret-right"></i>  Node JS</li>
+                  <li><i className="fas fa-caret-right"></i>  Express JS</li>
+                  <li><i className="fas fa-caret-right"></i>  MongoDB</li>
                 </ul>
             </p>
           </div>
-          
           <div className="text-wrapper w-4">
             <p className="description">
             </p>
           </div>
-
         </div>
       </section>
-      {/* <Footer /> */}
     </>
   );
 }
