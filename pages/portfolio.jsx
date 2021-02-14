@@ -15,7 +15,7 @@ function Portfolio() {
 			  <title>Portfolio</title>
 			</Head>
 
-			<Navbar />
+			{/* <Navbar /> */}
 
 			<section className="hero">
 			  <div className="container">
@@ -54,7 +54,7 @@ function Portfolio() {
 		      </div>
 	      </div>
 			</section>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 }

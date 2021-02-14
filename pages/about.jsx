@@ -14,7 +14,7 @@ function About() {
         <title>About</title>
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
 
       <section className="hero">
         <div className="container">
@@ -56,7 +56,7 @@ function About() {
 
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

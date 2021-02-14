@@ -8,7 +8,7 @@ function Contact() {
 			  <title>Contact</title>
 			</Head>
 
-			<Navbar />
+			{/* <Navbar /> */}
 
 			<section className="hero">
 			  <div className="container">
@@ -17,7 +17,7 @@ function Contact() {
 						<p className="description">
 							My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
 						</p>
-						<footer className="contact">
+						{/* <footer className="contact">
 						<nav>
 							<ul>
 
@@ -57,7 +57,7 @@ function Contact() {
 					
 							</ul>
 						</nav>
-						</footer>
+						</footer> */}
 		      		</div>
 	      		</div>
 			</section>

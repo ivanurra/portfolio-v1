@@ -1,7 +1,10 @@
 import Link from 'next/link';
-import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import About from './about';
+import Portfolio from './portfolio';
+import Contact from './contact';
 
 function Home() {
   return (
@@ -41,9 +44,13 @@ function Home() {
           </div>
         </div>
       </section>
+      <About />
+      <Portfolio />
+      <Contact />
       <Footer />
     </>
   );
 }
 
 export default Home;
+
