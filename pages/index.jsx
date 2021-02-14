@@ -16,11 +16,11 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <p className="description">Hi, my name is</p>
-            <h1 className="title">Iván Urra.</h1>
-            <p className="description">I'm a Full Stack Web Developer.</p>     
-            <a href="mailto:ivan.urra.dev@gmail.com" className="cta"><i class="fas fa-paper-plane"></i>Contact me</a>            
-            <Link href="/ResumePortfolio.pdf"><a className="cta"><i class="fas fa-file-alt"></i>Resume</a></Link>
+            <p className="hello">Hi, my name is</p>
+            <h1 className="myName">Iván Urra.</h1>
+            <p className="myName-description">I'm a Full Stack Web Developer based in Madrid, Spain.</p>     
+            <a href="mailto:ivan.urra.dev@gmail.com" className="cta"><i className="fas fa-paper-plane"></i>Contact me</a>            
+            <Link href="/ResumePortfolio.pdf"><a className="cta-resume"><i className="fas fa-file-alt"></i>Resume</a></Link>
           </div>
 
           {/* <div className="image-wrapper">

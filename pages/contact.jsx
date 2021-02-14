@@ -14,7 +14,7 @@ function Contact() {
 						<p className="description">
 							My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
 						</p>
-						<a href="mailto:ivan.urra.dev@gmail.com" className="cta"><i class="fas fa-paper-plane"></i>Contact me</a>
+						<a href="mailto:ivan.urra.dev@gmail.com" className="cta"><i className="fas fa-paper-plane"></i>Contact me</a>
 		      		</div>
 	      		</div>
 			</section>

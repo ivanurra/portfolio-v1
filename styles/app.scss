@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
+// font color: #1de49f;
+// background color: #222222;
+// font color: color: #fefdfa;
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
+	background-color: #222222;
+	color: #fefdfa;
 }
 
 a[href] {
-	color: #000;
+	color: #fefdfa;
 }
 
 .container {
@@ -24,6 +30,7 @@ a[href] {
 	}
 
 	.logo {
+		color: #1de49f;
 		font-size: 28px;
 		text-transform: uppercase;
 		letter-spacing: 3px;
@@ -65,8 +72,8 @@ a[href] {
 }
 
 .hero {
-	padding-top: 40px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 200px;
 
 	.container {
 		display: flex;
@@ -86,6 +93,21 @@ a[href] {
 			margin-bottom: 10px;
 		}
 
+		.hello{
+			font-size: 20px;
+			color: #1de49f;
+		}
+
+		.myName{
+			font-size: 82px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+
+		.myName-description{
+			font-size: 20px;	
+		}
+
 		.description {
 			margin-top: 30px;
 			font-size: 18px;
@@ -93,10 +115,26 @@ a[href] {
 
 		.cta {
 			display: inline-block;
-			padding: 15px 45px;
+			padding: 15px 20px;
 			margin-top: 20px;
-			background-color: #000;
-			color: #fff;
+			background-color: #fefdfa;
+			color: #222222;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: transform .3s;
+			margin-right: 12px;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+
+		.cta-resume{
+			display: inline-block;
+			padding: 15px 20px;
+			margin-top: 20px;
+			background-color: #1de49f;
+			color: #222222;
 			text-decoration: none;
 			border-radius: 5px;
 			transition: transform .3s;
@@ -127,6 +165,11 @@ a[href] {
 
 		.portfolio-image {
 			max-width: 100%;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+
 		}
 
 		.portfolio-name {
@@ -222,6 +265,11 @@ a[href] {
 
 /* skills */
 
+  .fa-caret-right{
+	color: #1de49f;
+	margin-right: 7px;
+  }
+
   #skills li {
 	font-size: 16px;
 	width: 150px;
@@ -234,7 +282,7 @@ a[href] {
 /* portfolio */
 
   .fa-external-link-alt{
-	font-size: 24px;  
+	font-size: 21px;  
 	margin-right: 20px;
   }
 
@@ -255,4 +303,17 @@ a[href] {
 
   .fa-file-alt{
 	margin-right: 9px;
+  }
+
+  /* Footer logos*/
+
+  .foot{
+	font-size: 32px; 
+  }
+
+  /* About */
+
+  .pic-about{
+	margin-left: 140px;
+	border-radius: 50%;  
   }

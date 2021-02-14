@@ -17,7 +17,7 @@ function Footer() {
                   rel="noopener"
                   target="_blank"
                 >
-                  <i className="fas fa-envelope-open"></i>
+                  <i className="fas fa-envelope-open foot"></i>
                 </a>
               </li>
 
@@ -28,7 +28,7 @@ function Footer() {
                   rel="noopener"
                   target="_blank"
                 >
-                  <i className="fab fa-github"></i>
+                  <i className="fab fa-github foot"></i>
                 </a>
               </li>
     
@@ -40,7 +40,7 @@ function Footer() {
                   className="linkedin"
                   target="_blank"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin foot"></i>
                 </a>
               </li>
             </ul>

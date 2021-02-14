@@ -15,7 +15,7 @@ function About() {
           <div className="text-wrapper w-8">
             <h1 className="title">About Me</h1>
             <p className="description">
-                Hello! I'm Iván, a Full Stack Web Developer based in Madrid.
+                Hello! I'm Iván, a Full Stack Web Developer based in Madrid, Spain.
                 I enjoy creating things that live on the internet. I am very 
                 excited about the possibilities of technology making life 
                 simpler.
@@ -43,8 +43,7 @@ function About() {
             </p>
           </div>
           <div className="text-wrapper w-4">
-            <p className="description">
-            </p>
+          <img src="/picgreen.jpg" alt="Ivan" className="pic-about" width="300" height="300"/>
           </div>
         </div>
       </section>

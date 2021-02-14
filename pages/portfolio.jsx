@@ -44,7 +44,7 @@ function Portfolio() {
 										<div className="portfolio-category">Web Game</div>
 									</div>
 								</div>
-								{/* <a href="https://github.com/ivanurra" className="cta"><i class="fab fa-github gitlogo"></i>More Stuff</a> */}
+								{/* <a href="https://github.com/ivanurra" className="cta"><i className="fab fa-github gitlogo"></i>More Stuff</a> */}
 							</div>
 						</div>
 				</section>
