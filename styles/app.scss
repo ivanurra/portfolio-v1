@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
+////// GENERAL STYLES ////////
 // font color: #1de49f;
 // background color: #222222;
 // font color: color: #fefdfa;
+//////////////////////////////
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -22,11 +24,12 @@ a[href] {
 }
 
 .navbar {
-	margin-top: 50px;
+	margin-top: 10px;
 
 	.container {
 		display: flex;
 		align-items: center;
+		width: 98%;
 	}
 
 	.logo {
@@ -72,7 +75,7 @@ a[href] {
 }
 
 .hero {
-	padding-top: 80px;
+	padding-top: 120px;
 	padding-bottom: 200px;
 
 	.container {
@@ -314,6 +317,6 @@ a[href] {
   /* About */
 
   .pic-about{
-	margin-left: 140px;
+	margin-left: 160px;
 	border-radius: 50%;  
   }
