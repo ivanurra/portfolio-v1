@@ -26,6 +26,25 @@ a[href] {
 .navbar {
 	margin-top: 10px;
 
+	.color-number{
+		color: #1de49f;
+		margin-right: 5px;
+	}
+
+	.resume{
+		color: #1de49f;
+		border: 1px solid #1de49f;
+		border-radius: 10%;
+		padding: 4px 25px 4px 25px;
+		margin-bottom: 0px;
+		text-decoration: none;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.02);
+		}
+	}
+
 	.container {
 		display: flex;
 		align-items: center;
@@ -49,10 +68,11 @@ a[href] {
 		.nav-item {
 			position: relative;
 			display: inline-block;
-			margin-left: 20px;
-			margin-right: 20px;
+			margin-left: 30px;
+			margin-right: 30px;
 			text-decoration: none;
 			transition: opacity .3s;
+			cursor: pointer;
 
 			&.active {
 				font-weight: 700;

@@ -43,25 +43,25 @@ export default function Navbar() {
           
               <li>
                 <Link activeClass="active" to="about" spy={true} smooth={true} duration={1300}>
-                  <a className="nav-item">About</a>
+                  <a className="nav-item"><span className="color-number">01.</span>About</a>
                 </Link>
               </li>
                 
               <li>
                 <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={1300}>
-                <a className="nav-item">Portfolio</a>
+                <a className="nav-item"><span className="color-number">02.</span>Portfolio</a>
                 </Link>
               </li>
 
               <li>
                 <Link activeClass="active" to="contact" spy={true} smooth={true} duration={1300}>
-                  <a className="nav-item">Contact</a>
+                  <a className="nav-item"><span className="color-number">03.</span>Contact</a>
                 </Link>
               </li>
 
               <li>
                 <LinkNext href="/ResumePortfolio.pdf">
-                  <a className="nav-item">Resume</a>
+                  <a className="nav-item resume">Resume</a>
                 </LinkNext>
               </li>
 
