@@ -14,10 +14,10 @@ function Portfolio() {
 			<section className="hero">
 						<div className="container">
 							<div className="text-wrapper w-full">
-								<h1 className="title">Portfolio</h1>
-								<p className="description">
+								<h1 className="title"><span className="color-number">02.</span>Some Things I’ve Built</h1>
+								{/* <p className="description">
 								Some Things I’ve Built.
-								</p>
+								</p> */}
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
 										<img src="/cinemabox1.png" className="portfolio-image" />

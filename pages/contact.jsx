@@ -10,11 +10,11 @@ function Contact() {
 			<section className="hero">
 			  <div className="container">
 			    	<div className="text-wrapper w-full">
-						<h1 className="title">Contact</h1>
-						<p className="description">
+						<h1 className="title"><span className="color-number">03.</span>Get In Touch</h1>
+						<p className="description-contact">
 							My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
 						</p>
-						<a href="mailto:ivan.urra.dev@gmail.com" className="cta"><i className="fas fa-paper-plane"></i>Contact me</a>
+						<a href="mailto:ivan.urra.dev@gmail.com" className="cta-contact"><i className="fas fa-paper-plane"></i>Say Hello</a>
 		      		</div>
 	      		</div>
 			</section>

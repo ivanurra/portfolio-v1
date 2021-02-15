@@ -13,7 +13,7 @@ function About() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-8">
-            <h1 className="title">About Me</h1>
+            <h1 className="title"><span className="color-number">01.</span>About Me</h1>
             <p className="description">
                 Hello! I'm Iván, a Full Stack Web Developer based in Madrid, Spain.
                 I enjoy creating things that live on the internet. I am very 
