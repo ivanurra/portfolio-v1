@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 function Contact() {
 	return (
-		<>
+		<div id="contact">
 			<Head>
 			  <title>Contact</title>
 			</Head>
@@ -18,7 +18,7 @@ function Contact() {
 		      		</div>
 	      		</div>
 			</section>
-		</>
+		</div>
 	);
 }
 

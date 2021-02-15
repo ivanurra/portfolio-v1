@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/js/brands";
 
 function Portfolio() {
 	return (
-		<>
+		<div id="portfolio">
 			<Head>
 			  <title>Portfolio</title>
 			</Head>
@@ -48,7 +48,7 @@ function Portfolio() {
 							</div>
 						</div>
 				</section>
-		</>
+		</div>
 	);
 }
 

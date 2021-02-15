@@ -12,6 +12,8 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "sass": "^1.26.10"
+    "react-scroll": "^1.8.1",
+    "sass": "^1.26.10",
+    "styled-components": "^5.2.1"
   }
 }

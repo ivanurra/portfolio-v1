@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-////// GENERAL STYLES ////////
-// font color: #1de49f;
-// background color: #222222;
-// font color: color: #fefdfa;
-//////////////////////////////
+//////// GENERAL STYLES ////////
+// font color: #1de49f  ////////
+// font color: #fefdfa /////////
+// background color: #222222 ///
+////////////////////////////////
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -29,7 +29,7 @@ a[href] {
 	.container {
 		display: flex;
 		align-items: center;
-		width: 98%;
+		width: 90%;
 	}
 
 	.logo {
@@ -188,7 +188,7 @@ a[href] {
 	}
 }
 
-/* footer */
+/* FOOTER */
 
 .footer {
 	width: 100%;
@@ -220,7 +220,7 @@ a[href] {
   }
 
   .footer-name{
-	width: 103%;
+	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
@@ -228,7 +228,7 @@ a[href] {
 	font-size: 14px;
   }
 
-  /* contact */
+  /* CONTACT */
 
   .contact {
 	margin: 50px 0 0 0;
@@ -266,7 +266,7 @@ a[href] {
 	  font-size: 14px;
   }
 
-/* skills */
+/* SKILLS */
 
   .fa-caret-right{
 	color: #1de49f;
@@ -282,7 +282,7 @@ a[href] {
 	display: inline-block;
   }
 
-/* portfolio */
+/* PORTFOLIO */
 
   .fa-external-link-alt{
 	font-size: 21px;  
@@ -298,7 +298,7 @@ a[href] {
 	font-size: 20px; 
   }
 
-  /* Landing */
+  /* LANDING */
 
   .fa-paper-plane{
 	margin-right: 9px;
@@ -308,13 +308,13 @@ a[href] {
 	margin-right: 9px;
   }
 
-  /* Footer logos*/
+  /* FOOTER LOGOS */
 
   .foot{
 	font-size: 32px; 
   }
 
-  /* About */
+  /* ABOUT */
 
   .pic-about{
 	margin-left: 160px;
