@@ -39,6 +39,7 @@ a[href] {
 		margin-bottom: 0px;
 		text-decoration: none;
 		cursor: pointer;
+		transition: transform .3s;
 
 		&:hover {
 			transform: scale(1.1);
@@ -96,10 +97,11 @@ a[href] {
 }
 
 .hero {
-	padding-top: 120px;
-	padding-bottom: 190px;
+	padding-top: 180px;
+	padding-bottom: 240px;
 
 	.container {
+		width: 60%;
 		display: flex;
 		align-items: center;
 	}
@@ -123,7 +125,7 @@ a[href] {
 		}
 
 		.myName{
-			font-size: 82px;
+			font-size: 86px;
 			margin-bottom: 0px;
 			margin-top: 0px;
 		}
@@ -138,11 +140,7 @@ a[href] {
 		}
 
 		.description-contact {
-			width: 40%;
 			margin-top: 30px;
-			margin-left: auto;
-			margin-right: auto;
-			text-align: center;
 			font-size: 18px;
 		}
 
@@ -180,14 +178,10 @@ a[href] {
 
 		.cta-contact{
 			display: inline-block;
-			position: relative;
-			// display: flex;
-			// align-items: center;
-			margin-left: auto;
-			margin-right: auto;
+			position: relative;		
 			padding: 15px 20px;
 			margin-top: 20px;
-			background-color: #fefdfa;
+			background-color: #1de49f;
 			color: #222222;
 			text-decoration: none;
 			border-radius: 5px;
@@ -197,6 +191,7 @@ a[href] {
 				transform: scale(1.1);
 			}
 		}
+
 	}
 
 	.image-wrapper {
@@ -209,6 +204,7 @@ a[href] {
 	display: flex;
 	margin-left: -10px;
 	margin-right: -10px;
+	margin-top: 50px;
 
 	.portfolio-item {
 		width: 50%;
@@ -218,15 +214,16 @@ a[href] {
 
 		.portfolio-image {
 			max-width: 100%;
+			transition: transform .3s;
 
 			&:hover {
-				transform: scale(1.1);
+				transform: scale(1.07);
 			}
 
 		}
 
 		.portfolio-name {
-			font-size: 28px;
+			font-size: 32px;
 			margin-top: 10px;
 			margin-bottom: 10px;
 			text-transform: capitalize;
@@ -234,6 +231,23 @@ a[href] {
 
 		.portfolio-category {
 			color: #999;
+			margin-top: 20px;
+		}
+
+		.portfolio-stack {
+			display: flex;
+			align-items: flex-end;
+			flex-wrap: wrap;
+			flex-grow: 1;
+			color: #1de49f;
+			margin-top: 10px;
+			list-style: none;
+			padding: 0px;
+			margin: 20px 0px 0px;
+		}
+
+		.portfolio-stack li {
+			font-size: 16px;
 		}
 	}
 }
@@ -339,7 +353,9 @@ a[href] {
   }
 
   .fa-github{
-	font-size: 24px;  
+	font-size: 24px;
+	margin-right: 25px;
+	margin-left: 25px;
   }
 
   .gitlogo{

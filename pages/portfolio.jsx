@@ -26,6 +26,14 @@ function Portfolio() {
 										<i className="fab fa-github"></i>
 										<i className="fas fa-external-link-alt"></i>
 										<div className="portfolio-category">Web App</div>
+										<div>
+											<ul className="portfolio-stack">
+												<li>React</li>
+												<li>Express</li>
+												<li>NodeJS</li>
+												<li>MongoDB</li>
+											</ul>
+										</div>
 									</div>
 									<div className="portfolio-item">
 										<img src="/cocktailguide2.png" className="portfolio-image" />
@@ -34,6 +42,7 @@ function Portfolio() {
 										<i className="fab fa-github"></i>
 										<i className="fas fa-external-link-alt"></i>
 										<div className="portfolio-category">Web App</div>
+										<div className="portfolio-stack">Web App</div>
 									</div>
 									<div className="portfolio-item">
 										<img src="/politico2.png" className="portfolio-image" />
@@ -42,6 +51,7 @@ function Portfolio() {
 										<i className="fab fa-github"></i>
 										<i className="fas fa-external-link-alt"></i>
 										<div className="portfolio-category">Web Game</div>
+										<div className="portfolio-stack">Web App</div>
 									</div>
 								</div>
 								{/* <a href="https://github.com/ivanurra" className="cta"><i className="fab fa-github gitlogo"></i>More Stuff</a> */}

@@ -36,8 +36,8 @@ function About() {
                   <li><i className="fas fa-caret-right"></i>  NextJS & GatsbyJS</li>
                   <li><i className="fas fa-caret-right"></i>  TypeScript</li>
                   <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
-                  <li><i className="fas fa-caret-right"></i>  Node JS</li>
-                  <li><i className="fas fa-caret-right"></i>  Express JS</li>
+                  <li><i className="fas fa-caret-right"></i>  NodeJS</li>
+                  <li><i className="fas fa-caret-right"></i>  ExpressJS</li>
                   <li><i className="fas fa-caret-right"></i>  MongoDB</li>
                 </ul>
             </p>
