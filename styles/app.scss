@@ -41,7 +41,7 @@ a[href] {
 		cursor: pointer;
 
 		&:hover {
-			transform: scale(1.02);
+			transform: scale(1.1);
 		}
 	}
 
@@ -181,6 +181,10 @@ a[href] {
 		.cta-contact{
 			display: inline-block;
 			position: relative;
+			// display: flex;
+			// align-items: center;
+			margin-left: auto;
+			margin-right: auto;
 			padding: 15px 20px;
 			margin-top: 20px;
 			background-color: #fefdfa;
@@ -188,7 +192,6 @@ a[href] {
 			text-decoration: none;
 			border-radius: 5px;
 			transition: transform .3s;
-			margin-right: 12px;
 			
 			&:hover {
 				transform: scale(1.1);
@@ -247,6 +250,7 @@ a[href] {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
+	margin-left: -40px;
   }
   
   .footer li {
@@ -267,19 +271,17 @@ a[href] {
   }
 
   .footer-name{
-	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
-	font-size: 14px;
+	font-size: 15px;
   }
 
   /* CONTACT */
 
   .contact {
 	margin: 50px 0 0 0;
-	// padding: 15px 0;
 	width: 100%;
 	
   }

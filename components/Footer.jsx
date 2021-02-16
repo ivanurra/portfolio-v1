@@ -1,5 +1,4 @@
 import { withRouter } from 'next/router';
-
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
@@ -43,12 +42,14 @@ function Footer() {
                   <i className="fab fa-linkedin foot"></i>
                 </a>
               </li>
+
             </ul>
+
             <p className="footer-name">Designed & Built by Ivan Urra</p>
+            
           </nav>
-          
         </footer>
       );
-}
+};
 
 export default withRouter(Footer);
