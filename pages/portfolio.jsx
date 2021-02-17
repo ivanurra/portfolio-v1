@@ -21,7 +21,6 @@ function Portfolio() {
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
 										<img src="/cinemabox1.png" className="portfolio-image" />
-
 										<h4 className="portfolio-name">Cinemabox</h4>
 										<i className="fab fa-github"></i>
 										<i className="fas fa-external-link-alt"></i>
@@ -41,7 +40,6 @@ function Portfolio() {
 									</div>
 									<div className="portfolio-item">
 										<img src="/cocktailguide2.png" className="portfolio-image" />
-
 										<h4 className="portfolio-name">Cocktail Guide</h4>
 										<i className="fab fa-github"></i>
 										<i className="fas fa-external-link-alt"></i>
@@ -61,8 +59,7 @@ function Portfolio() {
 									</div>
 									<div className="portfolio-item">
 										<img src="/politico2.png" className="portfolio-image" />
-
-										<h4 className="portfolio-name">El Politico</h4>
+										<h4 className="portfolio-name">El Político</h4>
 										<i className="fab fa-github"></i>
 										<i className="fas fa-external-link-alt"></i>
 										<div className="portfolio-category">

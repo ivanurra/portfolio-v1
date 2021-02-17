@@ -207,19 +207,23 @@ a[href] {
 	margin-top: 50px;
 
 	.portfolio-item {
+		border: 0.1px solid #1de49f;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding-top: 10px;
 		width: 50%;
 		padding-left: 10px;
 		padding-right: 10px;
 		text-align: center;
+		transition: 0.4s;
+
+		&:hover {
+			transform: translate(0, -8px);
+		}
 
 		.portfolio-image {
 			max-width: 100%;
 			transition: transform .3s;
-
-			&:hover {
-				transform: scale(1.07);
-			}
-
 		}
 
 		.portfolio-name {
@@ -349,12 +353,12 @@ a[href] {
 /* PORTFOLIO */
 
   .fa-external-link-alt{
-	font-size: 23px;  
+	font-size: 22px;  
 	margin-right: 20px;
   }
 
   .fa-github{
-	font-size: 23px;
+	font-size: 22px;
 	margin-right: 25px;
 	margin-left: 25px;
   }
