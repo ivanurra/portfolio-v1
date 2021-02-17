@@ -230,24 +230,25 @@ a[href] {
 		}
 
 		.portfolio-category {
+			font-size: 16px;
 			color: #999;
 			margin-top: 20px;
+			
 		}
 
 		.portfolio-stack {
-			display: flex;
-			align-items: flex-end;
-			flex-wrap: wrap;
-			flex-grow: 1;
 			color: #1de49f;
-			margin-top: 10px;
+			font-size: 14px;
+			display: flex;
+   			flex-direction: row;
+			justify-content: center; 
 			list-style: none;
-			padding: 0px;
-			margin: 20px 0px 0px;
+			padding: 0;
 		}
 
-		.portfolio-stack li {
-			font-size: 16px;
+		.portfolio-stack li{
+			margin-right: 5px;
+			margin-left: 5px;
 		}
 	}
 }
@@ -348,12 +349,12 @@ a[href] {
 /* PORTFOLIO */
 
   .fa-external-link-alt{
-	font-size: 21px;  
+	font-size: 23px;  
 	margin-right: 20px;
   }
 
   .fa-github{
-	font-size: 24px;
+	font-size: 23px;
 	margin-right: 25px;
 	margin-left: 25px;
   }
