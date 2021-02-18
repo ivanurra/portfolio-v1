@@ -20,10 +20,10 @@ function Portfolio() {
 								</p> */}
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
-										<img src="/cinemabox1.png" className="portfolio-image" />
+										<img src="/cinemabox.png" className="portfolio-image" />
 										<h4 className="portfolio-name">Cinemabox</h4>
-										<i className="fab fa-github"></i>
-										<i className="fas fa-external-link-alt"></i>
+										<a href="https://github.com/ivanurra/cinema_box_frontend" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
+										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
 											App about movies and TV shows. It allows you to keep up to date with 
 											the latest releases and the greatest hits of the moment. 
@@ -39,10 +39,10 @@ function Portfolio() {
 										</div>
 									</div>
 									<div className="portfolio-item">
-										<img src="/cocktailguide2.png" className="portfolio-image" />
+										<img src="/cocktailguide.png" className="portfolio-image" />
 										<h4 className="portfolio-name">Cocktail Guide</h4>
-										<i className="fab fa-github"></i>
-										<i className="fas fa-external-link-alt"></i>
+										<a href="https://github.com/ivanurra/cocktail-guide" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
+										<a href="https://cocktailguide.herokuapp.com" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
 											App about the world of cocktails. It contains a search engine that feeds on an API 
 											and a CRUD database in MongoDB Atlas with the users of the app and the recipes 
@@ -58,10 +58,10 @@ function Portfolio() {
 										</div>
 									</div>
 									<div className="portfolio-item">
-										<img src="/politico2.png" className="portfolio-image" />
-										<h4 className="portfolio-name">El Político</h4>
-										<i className="fab fa-github"></i>
-										<i className="fas fa-external-link-alt"></i>
+										<img src="/politico.png" className="portfolio-image" />
+										<h4 className="portfolio-name">El Politico</h4>
+										<a href="https://github.com/ivanurra/elPolitico-videogame" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
+										<a href="https://ivanurra.github.io/elPolitico-videogame/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
 											Videogame created with the challenge of finishing it in just four days. 
 											I used Canvas for the 2D graphics and it is developed with JavaScript, 
@@ -77,7 +77,6 @@ function Portfolio() {
 										</div>
 									</div>
 								</div>
-								{/* <a href="https://github.com/ivanurra" className="cta"><i className="fab fa-github gitlogo"></i>More Stuff</a> */}
 							</div>
 						</div>
 				</section>
