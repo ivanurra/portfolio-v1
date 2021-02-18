@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
@@ -15,9 +14,9 @@ function Portfolio() {
 						<div className="container">
 							<div className="text-wrapper w-full">
 								<h1 className="title"><span className="color-number">02.</span>Some Things I’ve Built</h1>
-								{/* <p className="description">
-								Some Things I’ve Built.
-								</p> */}
+								<p className="description">
+									I like to stay busy and always have a project in the works. Take a look at some of the applications I've dedicated my time to.
+								</p>
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
 										<img src="/cinemabox.png" className="portfolio-image" />
