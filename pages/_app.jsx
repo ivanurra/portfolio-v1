@@ -1,3 +1,4 @@
+// import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/app.scss';
 // Ivan Urra - Portfolio v1.0
 // This default export is required in a new `pages/_app.js` file.

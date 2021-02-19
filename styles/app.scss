@@ -28,7 +28,7 @@ a[href] {
 	margin-right: 7px;
 }
 
-.navbar {
+.navbar{
 	margin-top: 10px;
 
 	.resume{
@@ -350,7 +350,7 @@ a[href] {
 	display: inline-block;
   }
 
-/* PORTFOLIO */
+  /* PORTFOLIO */
 
   .fa-external-link-alt{
 	font-size: 21px;  
@@ -392,6 +392,42 @@ a[href] {
   }
 
 
-  ////////////////
-  // RESPONSIVE //
-  ////////////////
+////////////////
+// RESPONSIVE //
+////////////////
+
+/*/////////////////////////////////////*/
+/* RESPONSIVE DESIGN * iPad 1024 x 768 */
+/*/////////////////////////////////////*/
+
+@media (max-width: 769px) {
+
+	
+  }
+  
+/*///////////////////////////////////////*/
+/* RESPONSIVE DESIGN * iPhone 6/7/8 Plus */
+/*///////////////////////////////////////*/
+  
+  @media (max-width: 415px) {
+  
+	
+  }
+  
+/*//////////////////////////////////*/
+/* RESPONSIVE DESIGN * iPhone 6/7/8 */
+/*//////////////////////////////////*/
+  
+  @media (max-width: 376px) {
+  
+
+  }
+  
+/*/////////////////////////////////*/
+/* RESPONSIVE DESIGN * iPhone 5/SE */
+/*/////////////////////////////////*/
+  
+  @media (max-width: 321px) {
+  
+	
+  }
