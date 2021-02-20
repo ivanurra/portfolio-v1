@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-//////////// COLORS ///////////
+//////// COLORS GUIDE /////////
 // font color: #1de49f       //
 // font color: #fefdfa       //
 // background-color: #222222 //
 ///////////////////////////////
 
 body {
+	
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
 	background-color: #222222;
@@ -18,7 +19,7 @@ a[href] {
 }
 
 .container {
-	// width: 90%;
+
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -29,6 +30,8 @@ a[href] {
 }
 
 .navbar{
+	
+	max-width: 200vw;
 	margin-right: 10px;
 	margin-left: 10px;
 	font-size: 1em;
@@ -71,18 +74,7 @@ a[href] {
 	padding-top: 180px;
 	padding-bottom: 240px;
 
-	.container {
-		// width: 60%;
-		display: flex;
-		align-items: center;
-	}
-
 	.text-wrapper {
-		// width: 50%;
-
-		&.w-full {
-			// width: 100%;
-		}
 
 		.title {
 			font-size: 2em;
@@ -166,7 +158,6 @@ a[href] {
 	}
 
 	.image-wrapper {
-		// width: 50%;
 		text-align: right;
 	}
 }
@@ -182,7 +173,7 @@ a[href] {
 		margin-left: 5px;
 		background-color: #303030;
 		padding-top: 10px;
-		// width: 50%;
+
 		padding-left: 10px;
 		padding-right: 10px;
 		text-align: center;
@@ -230,10 +221,11 @@ a[href] {
 	}
 }
 
-/* FOOTER */
+////////////
+// FOOTER //
+////////////
 
 .footer {
-	width: 100%;
 	border-top: 1px solid #eaeaea;
   }
   
@@ -251,7 +243,7 @@ a[href] {
   }
   
   .footer a {
-	font-size: 1em;
+	font-size: 2em;
 	cursor: pointer;
   }
   
@@ -271,12 +263,12 @@ a[href] {
 	font-size: 1em;
   }
 
-  /* CONTACT */
+/////////////
+// CONTACT //
+/////////////
 
   .contact {
 	margin: 50px 0 0 0;
-	// width: 100%;
-	
   }
   
   .contact ul {
@@ -303,12 +295,9 @@ a[href] {
 	list-style: none;
   }
 
-//   .contact-name{
-// 	  text-align: center;
-// 	  font-size: 1400px;
-//   }
-
-/* SKILLS */
+////////////
+// SKILLS //
+////////////
 
   .fa-caret-right{
 	color: #1de49f;
@@ -316,15 +305,17 @@ a[href] {
   }
 
   #skills li {
-	font-size: 1em;
-	width: 150px;
-	height: 25px;
-	margin-top: 10px;
-	margin-right: 10px;
 	display: inline-block;
+	font-size: 0.8em;
+	width: 140px;
+	height: 25px;
+	margin-top: 30px;
+	margin-right: 2px;
   }
 
-  /* PORTFOLIO */
+///////////////  
+// PORTFOLIO //
+///////////////
 
   .fa-external-link-alt{
 	font-size: 2em;
@@ -342,7 +333,9 @@ a[href] {
 	font-size: 2em;
   }
 
-  /* LANDING */
+/////////////
+// LANDING //
+/////////////
 
   .fa-paper-plane{
 	margin-right: 9px;
@@ -361,15 +354,21 @@ a[href] {
   /* ABOUT */
 
   .pic-about{
-	margin-left: 160px;
+	// margin-left: 160px;
 	border-radius: 50%;  
   }
+
+ .about-box{
+	display: flex;
+	flex-direction: row;
+	// align-items: center;
+	// justify-content: center;
+ }
 
 
 ////////////////
 // RESPONSIVE //
 ////////////////
-
 /*/////////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPad 1024 x 768 */
 /*/////////////////////////////////////*/
@@ -394,20 +393,60 @@ a[href] {
   
   @media (max-width: 376px) {
 
+	.about-box{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	 }
+
+  }
+
+
+/*/////////////////////////////////*/
+/* RESPONSIVE DESIGN * iPhone 5/SE */
+/*/////////////////////////////////*/
+
+@media (max-width: 321px) {
 
 	.hero {
-		width: 50vh;
-	.container {
-		width: 50vh;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.text-wrapper {
+	
+			.myName{
+				font-size: 6em;
+			}
+		}
 	}
 
-	.text-wrapper {
-		 
-		.myName{
-			width: 50vh;
+	.navbar{
+		.navbar-brand{
+			font-size: 1.2em;
 		}
 
+		.navbar-nav a{
+			margin-top: 16px;
+		}
 	}
 
-  }
-  }
+	.about-box{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	 }
+
+	 #skills {
+		display: flex;
+		flex-direction: row;
+		font-size: 1em;
+	}
+
+	 .pic-about{
+		height: 200px;
+		width: 200px;
+	  }
+
+}
