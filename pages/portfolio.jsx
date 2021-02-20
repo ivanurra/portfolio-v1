@@ -24,8 +24,8 @@ function Portfolio() {
 										<a href="https://github.com/ivanurra/cinema_box_frontend" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
-											App about movies and TV shows. It allows you to keep up to date with 
-											the latest releases and the greatest hits of the moment. 
+											App about movies and TV shows. You will be able to check the 
+											latest releases and the greatest hits of the moment.
 											You can save your favorite movies and series so you don't miss anything.
 										</div>
 										<div>
@@ -43,9 +43,10 @@ function Portfolio() {
 										<a href="https://github.com/ivanurra/cocktail-guide" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://cocktailguide.herokuapp.com" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
-											App about the world of cocktails. It contains a search engine that feeds on an API 
-											and a CRUD database in MongoDB Atlas with the users of the app and the recipes 
-											they can share with it.
+											App about cocktails. You can choose hundreds of 
+											recipes and you can sign up to upload your own creations and 
+											share them with the world. It also includes the latest news on 
+											the world of bar and spirits.
 										</div>
 										<div>
 											<ul className="portfolio-stack">
