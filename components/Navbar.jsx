@@ -2,10 +2,6 @@ import React from 'react';
 import LinkNext from 'next/link';
 import { Link } from 'react-scroll';
 import { Navbar, Nav } from "react-bootstrap";
-import "@fortawesome/fontawesome-free/js/fontawesome";
-import "@fortawesome/fontawesome-free/js/solid";
-import "@fortawesome/fontawesome-free/js/regular";
-import "@fortawesome/fontawesome-free/js/brands";
 
 export default function Navigation() {
   return (
