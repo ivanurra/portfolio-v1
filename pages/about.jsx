@@ -21,18 +21,18 @@ function About() {
 
                     <div>
                           <p className="description">
-                              Hello! I'm Iván, a Full Stack Web Developer based in Madrid, Spain.
+                              Hello! <span className="color-number">I'm Iván, a Full Stack Web Developer</span>based in Madrid, Spain.
                               I enjoy creating things that live on the internet. I am very 
                               excited about the possibilities of technology making life 
                               simpler.
                               <br/>
                               <br/>
-                              I value commitment, hard work, and dedication. I love
-                              teamwork and help others. I have worked for more than ten years
-                              in a highly regulated IT environment. 
+                              I value commitment, hard work, and motivation to <span className="color-number">learn something new every day.</span> 
+                              I love teamwork and helping others. I have worked for more than ten years in 
+                              highly regulated IT environments.
                               <br/>
                               <br/>
-                              Here are a few technologies I've been working with recently:
+                              Here are a few <span className="color-number">technologies</span>I've been working with recently:
                               <br/>
 
                               <ul id="skills">

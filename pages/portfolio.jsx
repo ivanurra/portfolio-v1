@@ -25,8 +25,9 @@ function Portfolio() {
 										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
 											App about movies and TV shows. You will be able to check the 
-											latest releases and the greatest hits of the moment.
-											You can save your favorite movies and series so you don't miss anything.
+											latest releases and the blockbusters of the moment.
+											You can save your favorite movie or TV show, of any era, 
+											so you don't miss anything. Buy popcorn!
 										</div>
 										<div>
 											<ul className="portfolio-stack">
