@@ -26,7 +26,7 @@ export default function Navigation() {
                   <a ><span className="color-number">03.</span>Contact</a>
             </Link>
 
-            <Link download="Resume">
+            <Link to="resume">
                 <LinkNext href="/ResumePortfolio.pdf">
                       <a className="resume">Resume</a>
                 </LinkNext>

@@ -7,11 +7,10 @@
 ///////////////////////////////
 
 body {
-	
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1em;
 	background-color: #222222;
 	color: #fefdfa;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
 }
 
 a[href] {
@@ -19,7 +18,6 @@ a[href] {
 }
 
 .container {
-
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -30,20 +28,19 @@ a[href] {
 }
 
 .navbar{
-	
-	max-width: 200vw;
-	margin-right: 10px;
-	margin-left: 10px;
 	font-size: 1em;
+	max-width: 200vw;
+	margin-left: 10px;
+	margin-right: 10px;
 
 	.navbar-brand {
 		color: #1de49f;
 		font-size: 1.8em;
-		text-transform: uppercase;
-		letter-spacing: 3px;
 		font-weight: 600;
-		text-decoration: none;
+		letter-spacing: 3px;
 		list-style: none;
+		text-transform: uppercase;
+		text-decoration: none;
 
 		&:hover {
 			color: #1de49f;
@@ -51,18 +48,18 @@ a[href] {
 	}
 
 	.navbar-nav a{
-		margin-left: 10px;
 		cursor: pointer;
+		margin-left: 10px;
 	}
 
 	.resume{
-			color: #1de49f;
-			border: 1px solid #1de49f;
-			border-radius: 10%;
-			padding: 8px 15px 8px 15px;
-			margin-bottom: 0px;
-			text-decoration: none;
-			transition: background-color .3s;
+		border: 1px solid #1de49f;
+		border-radius: 10%;
+		color: #1de49f;
+		margin-bottom: 0px;
+		padding: 8px 15px 8px 15px;
+		text-decoration: none;
+		transition: background-color .3s;
 	
 			&:hover {
 				background-color: #06442e;
@@ -71,20 +68,20 @@ a[href] {
 }
 
 .hero {
-	padding-top: 180px;
 	padding-bottom: 240px;
+	padding-top: 180px;
 
 	.text-wrapper {
 
 		.title {
 			font-size: 2em;
-			margin-top: 0;
 			margin-bottom: 10px;
+			margin-top: 0;
 		}
 
 		.hello{
-			font-size: 1.3em;
 			color: #1de49f;
+			font-size: 1.3em;
 		}
 
 		.myName{
@@ -98,25 +95,25 @@ a[href] {
 		}
 
 		.description {
-			margin-top: 30px;
 			font-size: 1.2em;
+			margin-top: 30px;
 		}
 
 		.description-contact {
-			margin-top: 30px;
 			font-size: 1.2em;
+			margin-top: 30px;
 		}
 
 		.cta {
-			display: inline-block;
-			padding: 15px 20px;
-			margin-top: 20px;
 			background-color: #fefdfa;
-			color: #222222;
-			text-decoration: none;
 			border-radius: 5px;
-			transition: transform .3s;
+			color: #222222;
+			display: inline-block;
+			margin-top: 20px;
 			margin-right: 12px;
+			padding: 15px 20px;
+			transition: transform .3s;
+			text-decoration: none;
 
 			&:hover {
 				transform: scale(1.1);
@@ -124,15 +121,15 @@ a[href] {
 		}
 
 		.cta-resume{
-			display: inline-block;
-			padding: 15px 20px;
-			margin-top: 20px;
 			background-color: #1de49f;
-			color: #222222;
-			text-decoration: none;
 			border-radius: 5px;
-			transition: transform .3s;
+			color: #222222;
+			display: inline-block;
 			margin-right: 12px;
+			margin-top: 20px;
+			padding: 15px 20px;
+			text-decoration: none;
+			transition: transform .3s;
 
 			&:hover {
 				transform: scale(1.1);
@@ -140,14 +137,14 @@ a[href] {
 		}
 
 		.cta-contact{
+			background-color: #1de49f;
+			border-radius: 5px;
+			color: #222222;
 			display: inline-block;
+			margin-top: 20px;
 			position: relative;		
 			padding: 15px 20px;
-			margin-top: 20px;
-			background-color: #1de49f;
-			color: #222222;
 			text-decoration: none;
-			border-radius: 5px;
 			transition: transform .3s;
 			
 			&:hover {
@@ -170,10 +167,9 @@ a[href] {
 
 	.portfolio-item {
 		margin-right: 5px;
-		margin-left: 5px;
 		background-color: #303030;
+		margin-left: 5px;
 		padding-top: 10px;
-
 		padding-left: 10px;
 		padding-right: 10px;
 		text-align: center;
@@ -196,17 +192,17 @@ a[href] {
 		}
 
 		.portfolio-category {
-			font-size: 1em;
 			color: #999;
+			font-size: 1em;
 			margin-top: 20px;
 			
 		}
 
 		.portfolio-stack {
-			color: #1de49f;
-			font-size: 1em;
-			display: flex;
 			align-items: center;
+			color: #1de49f;
+			display: flex;
+			font-size: 1em;
    			flex-direction: row;
 			justify-content: center; 
 			list-style: none;
@@ -230,9 +226,9 @@ a[href] {
   }
   
   .footer ul {
+	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
-	align-items: center;
 	justify-content: center;
 	margin-left: -40px;
 	margin-top: 10px;
@@ -243,8 +239,8 @@ a[href] {
   }
   
   .footer a {
-	font-size: 2em;
 	cursor: pointer;
+	font-size: 2em;
   }
   
   .footer a:hover {
@@ -256,11 +252,11 @@ a[href] {
   }
 
   .footer-name{
+	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
-	align-items: center;
-	justify-content: center;
 	font-size: 1em;
+	justify-content: center;
   }
 
 /////////////
@@ -272,9 +268,9 @@ a[href] {
   }
   
   .contact ul {
+	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
-	align-items: center;
 	justify-content: center;
   }
   
@@ -283,8 +279,8 @@ a[href] {
   }
   
   .contact a {
-	font-size: 1em;
 	cursor: pointer;
+	font-size: 1em;
   }
   
   .contact a:hover {
@@ -307,10 +303,10 @@ a[href] {
   #skills li {
 	display: inline-block;
 	font-size: 0.8em;
-	width: 140px;
 	height: 25px;
 	margin-top: 30px;
 	margin-right: 2px;
+	width: 140px;
   }
 
 ///////////////  
@@ -345,28 +341,27 @@ a[href] {
 	margin-right: 9px;
   }
 
-  /* FOOTER LOGOS */
+//////////////////
+/* FOOTER LOGOS */
+//////////////////
 
   .foot{
 	font-size: 1em;
   }
 
-  /* ABOUT */
+///////////
+/* ABOUT */
+///////////
 
   .pic-about{
-
 	margin-left: 30px;
-
 	border-radius: 50%;  
   }
 
  .about-box{
 	display: flex;
 	flex-direction: row;
-	// align-items: center;
-	// justify-content: center;
  }
-
 
 ////////////////
 // RESPONSIVE //
@@ -402,19 +397,19 @@ a[href] {
 	}
 
 	.about-box{
+		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
 		justify-content: center;
 	 }
 
 	 #skills li {
 		display: inline-block;
 		font-size: 0.8em;
-		width: 140px;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
+		width: 140px;
 	  }
 
 	 .pic-about{
@@ -425,14 +420,12 @@ a[href] {
 	  }
 
 	  .portfolio-wrapper {
-		
+		align-items: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 
 		.portfolio-item {
 			margin-top: 20px;
-
 	  }
 	}
 	
@@ -469,33 +462,32 @@ a[href] {
 	}
 
 	.about-box{
+		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
 		justify-content: center;
 	 }
 
 	 #skills li {
 		display: inline-block;
 		font-size: 0.8em;
-		width: 140px;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
+		width: 140px;
 	  }
 	  
 	 .pic-about{
+		height: 250px;
 		margin-left: 0px;
 		margin-top: 10px;
-		height: 250px;
 		width: 250px;
 	  }
 
 	  .portfolio-wrapper {
-		
+		align-items: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 
 		.portfolio-item {
 			margin-top: 20px;
@@ -511,8 +503,8 @@ a[href] {
   @media (max-width: 415px) {
   
 		.hero {
-		padding-top: 50px;
 		padding-bottom: 50px;
+		padding-top: 50px;
 
 		.text-wrapper {
 			margin-bottom: 70px;
@@ -534,19 +526,19 @@ a[href] {
 	}
 
 	.about-box{
+		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
 		justify-content: center;
 	 }
 
 	 #skills li {
 		display: inline-block;
 		font-size: 0.8em;
-		width: 140px;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
+		width: 140px;
 	  }
 
 	 .pic-about{
@@ -557,14 +549,12 @@ a[href] {
 	  }
 
 	  .portfolio-wrapper {
-		
+		align-items: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 
 		.portfolio-item {
 			margin-top: 20px;
-
 	  }
 	}
 	
@@ -577,8 +567,8 @@ a[href] {
   @media (max-width: 376px) {
 
 	.hero {
-		padding-top: 80px;
 		padding-bottom: 75px;
+		padding-top: 80px;
 
 		.text-wrapper {
 			margin-bottom: 40px;
@@ -600,19 +590,19 @@ a[href] {
 	}
 
 	.about-box{
+		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
 		justify-content: center;
 	 }
 
 	 #skills li {
 		display: inline-block;
 		font-size: 0.8em;
-		width: 140px;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
+		width: 140px;
 	  }
 
 	 .pic-about{
@@ -623,17 +613,14 @@ a[href] {
 	  }
 
 	  .portfolio-wrapper {
-		
+		align-items: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 
 		.portfolio-item {
 			margin-top: 20px;
-
 	  }
 	}
-
 }
 
 
@@ -644,8 +631,8 @@ a[href] {
 @media (max-width: 321px) {
 
 	.hero {
-		padding-top: 30px;
 		padding-bottom: 30px;
+		padding-top: 30px;
 
 		.text-wrapper {
 	
@@ -666,9 +653,9 @@ a[href] {
 	}
 
 	.about-box{
+		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
 		justify-content: center;
 	 }
 
@@ -680,29 +667,27 @@ a[href] {
 		display: flex;
 		flex-direction: row;
 		font-size: 0.8em;
-		width: 140px;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 0px;
 		margin-left: 0px;
+		width: 140px;
 	  }
 
 	 .pic-about{
+		height: 200px;
 		margin-left: 0px;
 		margin-top: 10px;
-		height: 200px;
 		width: 200px;
 	  }
 
 	  .portfolio-wrapper {
-		
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 		.portfolio-item {
 			margin-top: 20px;
-
 	  }
 	}
 }
