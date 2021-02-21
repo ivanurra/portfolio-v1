@@ -373,14 +373,81 @@ a[href] {
 ////////////////
 
 /*/////////////////////////////////////*/
+/* RESPONSIVE DESIGN * 990 */
+/*/////////////////////////////////////*/
+
+@media (max-width: 990px) {
+
+	.hero {
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		.text-wrapper {
+			margin-bottom: 70px;
+
+			.myName{
+				font-size: 10em;
+			}
+		}
+	}
+
+	.navbar{
+		.navbar-brand{
+			font-size: 2.6em;
+		}
+
+		.navbar-nav a{
+			margin-top: 16px;
+		}
+	}
+
+	.about-box{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	 }
+
+	 #skills li {
+		display: inline-block;
+		font-size: 0.8em;
+		width: 140px;
+		height: 25px;
+		margin-top: 30px;
+		margin-right: 2px;
+	  }
+
+	 .pic-about{
+		margin-left: 0px;
+		margin-top: 10px;
+		height: 300px;
+		width: 300px;
+	  }
+
+	  .portfolio-wrapper {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.portfolio-item {
+			margin-top: 20px;
+
+	  }
+	}
+	
+}
+
+
+/*/////////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPad 1024 x 768 */
 /*/////////////////////////////////////*/
 
 @media (max-width: 769px) {
 
 	.hero {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 100px;
+		padding-bottom: 100px;
 
 		.text-wrapper {
 			margin-bottom: 70px;
@@ -408,12 +475,15 @@ a[href] {
 		justify-content: center;
 	 }
 
-	 #skills {
-		display: flex;
-		flex-direction: row;
-		font-size: 1em;
-	}
-
+	 #skills li {
+		display: inline-block;
+		font-size: 0.8em;
+		width: 140px;
+		height: 25px;
+		margin-top: 30px;
+		margin-right: 2px;
+	  }
+	  
 	 .pic-about{
 		margin-left: 0px;
 		margin-top: 10px;
@@ -429,12 +499,11 @@ a[href] {
 
 		.portfolio-item {
 			margin-top: 20px;
-
 	  }
 	}
 	
-  }
-  
+}
+
 /*///////////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPhone 6/7/8 Plus */
 /*///////////////////////////////////////*/
@@ -442,8 +511,8 @@ a[href] {
   @media (max-width: 415px) {
   
 		.hero {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 
 		.text-wrapper {
 			margin-bottom: 70px;
@@ -471,11 +540,14 @@ a[href] {
 		justify-content: center;
 	 }
 
-	 #skills {
-		display: flex;
-		flex-direction: row;
-		font-size: 1em;
-	}
+	 #skills li {
+		display: inline-block;
+		font-size: 0.8em;
+		width: 140px;
+		height: 25px;
+		margin-top: 30px;
+		margin-right: 2px;
+	  }
 
 	 .pic-about{
 		margin-left: 0px;
@@ -496,7 +568,7 @@ a[href] {
 	  }
 	}
 	
-  }
+}
   
 /*//////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPhone 6/7/8 */
@@ -505,8 +577,8 @@ a[href] {
   @media (max-width: 376px) {
 
 	.hero {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 80px;
+		padding-bottom: 75px;
 
 		.text-wrapper {
 			margin-bottom: 40px;
@@ -534,11 +606,14 @@ a[href] {
 		justify-content: center;
 	 }
 
-	 #skills {
-		display: flex;
-		flex-direction: row;
-		font-size: 1em;
-	}
+	 #skills li {
+		display: inline-block;
+		font-size: 0.8em;
+		width: 140px;
+		height: 25px;
+		margin-top: 30px;
+		margin-right: 2px;
+	  }
 
 	 .pic-about{
 		margin-left: 0px;
@@ -559,7 +634,7 @@ a[href] {
 	  }
 	}
 
-  }
+}
 
 
 /*/////////////////////////////////*/
@@ -598,10 +673,19 @@ a[href] {
 	 }
 
 	 #skills {
+		 margin-left: 0px;
+	 }
+
+	 #skills li {
 		display: flex;
 		flex-direction: row;
-		font-size: 1em;
-	}
+		font-size: 0.8em;
+		width: 140px;
+		height: 25px;
+		margin-top: 30px;
+		margin-right: 0px;
+		margin-left: 0px;
+	  }
 
 	 .pic-about{
 		margin-left: 0px;
