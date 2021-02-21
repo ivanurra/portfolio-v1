@@ -17,7 +17,7 @@ function Portfolio() {
 								<p className="description">
 									I like to stay busy and always have a project in the works. Take a look at some of the applications I've dedicated my time to.
 								</p>
-								{/* <div className="portfolio-wrapper">
+								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
 										<img src="/cinemabox.png" className="portfolio-image" />
 										<h4 className="portfolio-name">Cinemabox</h4>
@@ -76,7 +76,7 @@ function Portfolio() {
 											</ul>
 										</div>
 									</div>
-								</div> */}
+								</div>
 							</div>
 						</div>
 				</section>

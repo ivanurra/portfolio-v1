@@ -354,7 +354,9 @@ a[href] {
   /* ABOUT */
 
   .pic-about{
-	// margin-left: 160px;
+
+	margin-left: 30px;
+
 	border-radius: 50%;  
   }
 
@@ -369,12 +371,67 @@ a[href] {
 ////////////////
 // RESPONSIVE //
 ////////////////
+
 /*/////////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPad 1024 x 768 */
 /*/////////////////////////////////////*/
 
 @media (max-width: 769px) {
 
+	.hero {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.text-wrapper {
+			margin-bottom: 70px;
+
+			.myName{
+				font-size: 8em;
+			}
+		}
+	}
+
+	.navbar{
+		.navbar-brand{
+			font-size: 1.8em;
+		}
+
+		.navbar-nav a{
+			margin-top: 16px;
+		}
+	}
+
+	.about-box{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	 }
+
+	 #skills {
+		display: flex;
+		flex-direction: row;
+		font-size: 1em;
+	}
+
+	 .pic-about{
+		margin-left: 0px;
+		margin-top: 10px;
+		height: 250px;
+		width: 250px;
+	  }
+
+	  .portfolio-wrapper {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.portfolio-item {
+			margin-top: 20px;
+
+	  }
+	}
 	
   }
   
@@ -384,6 +441,60 @@ a[href] {
   
   @media (max-width: 415px) {
   
+		.hero {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.text-wrapper {
+			margin-bottom: 70px;
+
+			.myName{
+				font-size: 8em;
+			}
+		}
+	}
+
+	.navbar{
+		.navbar-brand{
+			font-size: 1.8em;
+		}
+
+		.navbar-nav a{
+			margin-top: 16px;
+		}
+	}
+
+	.about-box{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	 }
+
+	 #skills {
+		display: flex;
+		flex-direction: row;
+		font-size: 1em;
+	}
+
+	 .pic-about{
+		margin-left: 0px;
+		margin-top: 10px;
+		height: 250px;
+		width: 250px;
+	  }
+
+	  .portfolio-wrapper {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.portfolio-item {
+			margin-top: 20px;
+
+	  }
+	}
 	
   }
   
@@ -393,12 +504,60 @@ a[href] {
   
   @media (max-width: 376px) {
 
+	.hero {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.text-wrapper {
+			margin-bottom: 40px;
+
+			.myName{
+				font-size: 7em;
+			}
+		}
+	}
+
+	.navbar{
+		.navbar-brand{
+			font-size: 1.6em;
+		}
+
+		.navbar-nav a{
+			margin-top: 16px;
+		}
+	}
+
 	.about-box{
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
 	 }
+
+	 #skills {
+		display: flex;
+		flex-direction: row;
+		font-size: 1em;
+	}
+
+	 .pic-about{
+		margin-left: 0px;
+		margin-top: 10px;
+		height: 200px;
+		width: 200px;
+	  }
+
+	  .portfolio-wrapper {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.portfolio-item {
+			margin-top: 20px;
+
+	  }
+	}
 
   }
 
@@ -445,8 +604,22 @@ a[href] {
 	}
 
 	 .pic-about{
+		margin-left: 0px;
+		margin-top: 10px;
 		height: 200px;
 		width: 200px;
 	  }
 
+	  .portfolio-wrapper {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.portfolio-item {
+			margin-top: 20px;
+
+	  }
+	}
 }
+

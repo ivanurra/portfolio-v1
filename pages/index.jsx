@@ -20,7 +20,7 @@ function Home() {
             <h1 className="myName">Iván Urra.</h1>
             <p className="myName-description">I'm a Full Stack Web Developer based in Madrid, Spain.</p>     
             <a href="mailto:ivan.urra.dev@gmail.com" className="cta"><i className="fas fa-paper-plane"></i>Contact me</a>            
-            <Link href="/ResumePortfolio.pdf"><a className="cta-resume"><i className="fas fa-file-alt"></i>Resume</a></Link>
+            <Link href="/ResumePortfolio.pdf" ><a className="cta-resume" target="_blank"><i className="fas fa-file-alt"></i>Resume</a></Link>
           </div>
         </div>
       </section>
