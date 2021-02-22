@@ -240,6 +240,10 @@ a[href] {
   .footer a {
 	cursor: pointer;
 	font-size: 2em;
+
+	&:hover {
+		color: #1de49f;
+	}
   }
   
   .footer a:hover {
@@ -315,12 +319,21 @@ a[href] {
   .fa-external-link-alt{
 	font-size: 2em;
 	margin-right: 20px;
+
+	&:hover {
+		color: #1de49f;
+	}
   }
 
   .fa-github{
 	font-size: 2em;
 	margin-right: 25px;
 	margin-left: 25px;
+
+	&:hover {
+		color: #1de49f;
+	}
+
   }
 
   .gitlogo{
@@ -502,14 +515,14 @@ a[href] {
   @media (max-width: 415px) {
   
 		.hero {
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 		padding-top: 40px;
 
 		.text-wrapper {
 			margin-bottom: 70px;
 
 			.myName{
-				font-size: 8em;
+				font-size: 7em;
 			}
 		}
 	}
@@ -566,8 +579,8 @@ a[href] {
   @media (max-width: 376px) {
 
 	.hero {
-		padding-bottom: 75px;
-		padding-top: 80px;
+		padding-bottom: 155px;
+		padding-top: 40px;
 
 		.text-wrapper {
 			margin-bottom: 40px;
@@ -631,7 +644,7 @@ a[href] {
 
 	.hero {
 		padding-bottom: 30px;
-		padding-top: 30px;
+		padding-top: 25px;
 
 		.text-wrapper {
 	

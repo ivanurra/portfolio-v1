@@ -1,12 +1,18 @@
-# Code with Ivan - Portfolio
+# PORTFOLIO WEBSITE - ivanurra.dev
 
-Portfolio built with NextJS.
-Made by Ivan Urra.
+My portfolio website, made with NextJS.
 
+![Screenshot](public/ivanurradev.png)
 
-## Getting Started
+## Getting Started 🚀
 
-First, run the development server:
+* Install all dependencies described in package.json:
+
+```
+$ npm install
+```
+
+* Run the development server:
 
 ```bash
 npm run dev
@@ -14,21 +20,28 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Deployment 📦
 
-To learn more about Next.js, take a look at the following resources:
+LIVE DEMO:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://ivanurra.dev/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Built with 🛠️
 
-## Deploy on Vercel
+* [React](https://reactjs.org/) - Open source Javascript library designed to create user interfaces on a single page.
+* [NextJS](https://nextjs.org/) - Open-source React front-end development web framework.
+* [Vercel](https://vercel.com/) - For deployment.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author ✒️
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* **Iván Urra** - [ivanurra](https://github.com/ivanurra)
+
+## License 📄
+
+Copyright (c) 2021 Iván Urra
+
+MIT License
