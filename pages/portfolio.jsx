@@ -8,7 +8,7 @@ function Portfolio() {
 	return (
 		<div id="portfolio">
 			<Head>
-			  <title>Portfolio</title>
+			  <title>ivanurra.dev</title>
 			</Head>
 			<section className="hero">
 						<div className="container">

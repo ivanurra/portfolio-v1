@@ -8,7 +8,7 @@ function About() {
   return (
     <div id="about">
       <Head>
-        <title>About</title>
+        <title>ivanurra.dev</title>
       </Head>
       <section className="hero">
         <div className="container">
