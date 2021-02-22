@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
 
     <Navbar bg="transparent" expand="lg" variant="dark">
-      <Navbar.Brand href="/" className="navbar-brand">Code with Ivan</Navbar.Brand>
+      <Navbar.Brand href="/" className="navbar-brand">ivanurra<span className="color-number">.dev</span></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav">
      
       </Navbar.Toggle>
@@ -27,7 +27,7 @@ export default function Navigation() {
             </Link>
 
             <Link to="resume">
-                <LinkNext href="/ResumePortfolio.pdf">
+                <LinkNext href="/resumeivanurra.pdf">
                       <a className="resume">Resume</a>
                 </LinkNext>
             </Link>

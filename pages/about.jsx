@@ -40,12 +40,13 @@ function About() {
                                 {/* <div> */}
                                     <li><i className="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
                                     <li><i className="fas fa-caret-right"></i>  React</li>
-                                    <li><i className="fas fa-caret-right"></i>  Angular</li>
+                                    {/* <li><i className="fas fa-caret-right"></i>  Angular</li> */}
                                     <li><i className="fas fa-caret-right"></i>  NextJS</li>
                                     <li><i className="fas fa-caret-right"></i>  GatsbyJS</li>
                                 {/* </div>
                                 <div> */}
-                                    <li><i className="fas fa-caret-right"></i>  TypeScript</li>
+                                    {/* <li><i className="fas fa-caret-right"></i>  TypeScript</li> */}
+                                    <li><i className="fas fa-caret-right"></i>  Handlebars</li>
                                     <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
                                     <li><i className="fas fa-caret-right"></i>  NodeJS</li>
                                     <li><i className="fas fa-caret-right"></i>  ExpressJS</li>

@@ -34,12 +34,11 @@ a[href] {
 	margin-right: 10px;
 
 	.navbar-brand {
-		color: #1de49f;
+		color: #fefdfa;
 		font-size: 1.8em;
 		font-weight: 600;
 		letter-spacing: 3px;
 		list-style: none;
-		text-transform: uppercase;
 		text-decoration: none;
 
 		&:hover {
@@ -68,8 +67,8 @@ a[href] {
 }
 
 .hero {
-	padding-bottom: 240px;
-	padding-top: 180px;
+	padding-bottom: 270px;
+	padding-top: 220px;
 
 	.text-wrapper {
 
@@ -85,7 +84,7 @@ a[href] {
 		}
 
 		.myName{
-			font-size: 6em;
+			font-size: 7em;
 			margin-bottom: 0px;
 			margin-top: 0px;
 		}
