@@ -1,6 +1,7 @@
 # PORTFOLIO WEBSITE - ivanurra.dev
 
-My portfolio website, made with NextJS.
+My portfolio website.
+Built with Next.js.
 
 ![Screenshot](public/ivanurradev.png)
 

@@ -8,7 +8,11 @@ function About() {
   return (
     <div id="about">
       <Head>
-        <title>ivanurra.dev</title>
+      <title>ivanurra.dev</title>
+			<meta property='og:title' content='ivanurra.dev'/>
+			<meta property='og:image' content='https://ivanurra.dev/ivanurradev.png'/>
+			<meta property='og:description' content='My portfolio website. Built with Next.js'/>
+			<meta property='og:url' content='https://ivanurra.dev/'/>
       </Head>
       <section className="hero">
         <div className="container">
