@@ -3,6 +3,7 @@ import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
+import { motion } from 'framer-motion';
 
 function About() {
   return (
@@ -15,7 +16,20 @@ function About() {
 			<meta property='og:url' content='https://ivanurra.dev/'/>
       </Head>
       <section className="hero">
-        <div className="container">
+        <motion.div className="container" initial="hidden" animate="visible" variants={{
+          hidden: {
+            scale: 1,
+            opacity: 0
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              duration: 0.5,
+              delay: 1
+            }
+          }
+        }}>
 
           <div className="text-wrapper">
 
@@ -69,7 +83,7 @@ function About() {
 
           </div>
 
-        </div>
+        </motion.div>
       </section>
     </div>
   );
