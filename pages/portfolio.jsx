@@ -74,7 +74,7 @@ function Portfolio() {
 										</div>
 										<div>
 											<ul className="portfolio-stack">
-												<li>Next JS</li>
+												<li>NextJS</li>
 												<li>React</li>
 												<li>Framer-Motion</li>
 												<li>SASS</li>
