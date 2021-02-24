@@ -29,7 +29,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 LIVE DEMO:
 
-https://ivanurra.dev/
+https://ivanurra.dev
 
 ## Built with 🛠️
 
