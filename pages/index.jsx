@@ -21,15 +21,17 @@ function Home() {
       <section className="hero">
         <motion.div className="container" initial="hidden" animate="visible" variants={{
           hidden: {
+            y: 25,
             scale: 1,
             opacity: 0
           },
           visible: {
+            y: 0,
             scale: 1,
             opacity: 1,
             transition: {
               duration: 0.5,
-              delay: 1
+              delay: 0
             }
           }
         }}>
