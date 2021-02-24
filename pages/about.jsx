@@ -1,11 +1,41 @@
 import Head from "next/head";
+import { motion, useAnimation } from 'framer-motion';
+import { useEffect } from "react";
+import { useInView } from 'react-intersection-observer';
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
-import { motion } from 'framer-motion';
 
 function About() {
+
+  const controls = useAnimation();
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+    if (!inView) {
+      controls.start('hidden');
+    }
+  }, [controls, inView]);
+
+  const variants = { 
+    hidden: { 
+      scale: 1, 
+      opacity: 0, 
+      y: 40 },
+    visible: {
+      scale: 1,
+      opacity: 1,
+      y: 0,
+      transition: { delay: 0.5, duration: 1 }
+    }
+  }
+
   return (
     <div id="about">
       <Head>
@@ -16,24 +46,17 @@ function About() {
 			<meta property='og:url' content='https://ivanurra.dev/'/>
       </Head>
       <section className="hero">
-        <motion.div className="container" initial="hidden" animate="visible" variants={{
-          hidden: {
-            scale: 1,
-            opacity: 0
-          },
-          visible: {
-            scale: 1,
-            opacity: 1,
-            transition: {
-              duration: 0.5,
-              delay: 1
-            }
-          }
-        }}>
-
+        <div className="container">
           <div className="text-wrapper">
-
-              <h1 className="title"><span className="color-number">01.</span>About Me</h1>
+              <motion.div
+                ref={ref}
+                initial="hidden"
+                animate={controls}
+                variants={variants}
+              >
+                  <h1 className="title"><span className="color-number">01.</span>About Me</h1>
+              </motion.div>
+              
               
                 <div className="about-box">
 
@@ -55,35 +78,35 @@ function About() {
 
                               <ul id="skills">
                               
-                                {/* <div> */}
                                     <li><i className="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
                                     <li><i className="fas fa-caret-right"></i>  React</li>
                                     {/* <li><i className="fas fa-caret-right"></i>  Angular</li> */}
                                     <li><i className="fas fa-caret-right"></i>  NextJS</li>
                                     <li><i className="fas fa-caret-right"></i>  GatsbyJS</li>
-                                {/* </div>
-                                <div> */}
                                     {/* <li><i className="fas fa-caret-right"></i>  TypeScript</li> */}
                                     <li><i className="fas fa-caret-right"></i>  Handlebars</li>
                                     <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
                                     <li><i className="fas fa-caret-right"></i>  NodeJS</li>
                                     <li><i className="fas fa-caret-right"></i>  ExpressJS</li>
                                     <li><i className="fas fa-caret-right"></i>  MongoDB</li>
-                                {/* </div> */}
 
                               </ul>
                          </p>
                     </div>
 
-                    <div>
+                    <motion.div
+                      ref={ref}
+                      initial="hidden"
+                      animate={controls}
+                      variants={variants}
+                    >
                         <img src="/picgreen.jpg" alt="Ivan" className="pic-about" width="300" height="300"/>
-                    </div>
+                    </motion.div>
 
                 </div>
 
           </div>
-
-        </motion.div>
+        </div>
       </section>
     </div>
   );

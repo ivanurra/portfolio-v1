@@ -1,6 +1,37 @@
 import Head from 'next/head';
+import { motion, useAnimation } from 'framer-motion';
+import { useEffect } from "react";
+import { useInView } from 'react-intersection-observer';
 
 function Contact() {
+
+	const controls = useAnimation();
+	const { ref, inView } = useInView({
+	  triggerOnce: true,
+	});
+  
+	useEffect(() => {
+	  if (inView) {
+		controls.start('visible');
+	  }
+	  if (!inView) {
+		controls.start('hidden');
+	  }
+	}, [controls, inView]);
+  
+	const variants = { 
+	  hidden: { 
+		scale: 1, 
+		opacity: 0, 
+		y: 40 },
+	  visible: {
+		scale: 1,
+		opacity: 1,
+		y: 0,
+		transition: { delay: 0.5, duration: 1 }
+	  }
+	}
+
 	return (
 		<div id="contact">
 			<Head>
@@ -13,7 +44,16 @@ function Contact() {
 			<section className="hero">
 			  <div className="container">
 			    	<div className="text-wrapper w-full">
-						<h1 className="title"><span className="color-number">03.</span>Get In Touch</h1>
+					
+						<motion.div
+							ref={ref}
+							initial="hidden"
+							animate={controls}
+							variants={variants}
+						>
+							<h1 className="title"><span className="color-number">03.</span>Get In Touch</h1>
+						</motion.div>
+						
 						<p className="description-contact">
 							My inbox is always open. Feel free to reach out if you're looking for a developer, 
 							have a question, or just want to say hi. I'll try my best to get back to you!
