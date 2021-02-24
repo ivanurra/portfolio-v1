@@ -13,7 +13,7 @@ function Home() {
       <Head>
 			<title>ivanurra.dev</title>
 			<meta property='og:title' content='ivanurra.dev'/>
-			<meta property='og:image' content='https://ivanurra.dev/ivanurradev.png'/>
+			<meta property='og:image' content='https://ivanurra.dev/mockup.jpg'/>
 			<meta property='og:description' content='Portfolio: Ivan Urra - Full Stack Web Developer. Built with Next.js'/>
 			<meta property='og:url' content='https://ivanurra.dev/'/>
       </Head>
