@@ -59,7 +59,28 @@ function Portfolio() {
 								<p className="description">
 									I like to stay busy and always have a project in the works. Take a look at some of the applications I've dedicated my time to.
 								</p>
+
 								<div className="portfolio-wrapper">
+									<div className="portfolio-item">
+										<img src="/ivanurradev2.png" className="portfolio-image" />
+										<h4 className="portfolio-name">Portfolio</h4>
+										<a href="https://github.com/ivanurra/portfolio-v1" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
+										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+										<div className="portfolio-category">
+											My portfolio. It's a Single Page Application (SPA), 
+											built with Next JS. I am in love with this framework.
+											My goal was to have a minimalist portfolio 
+											where I could show my projects and facilitate contact with me.
+										</div>
+										<div>
+											<ul className="portfolio-stack">
+												<li>Next JS</li>
+												<li>React</li>
+												<li>Framer-Motion</li>
+												<li>SASS</li>
+											</ul>
+										</div>
+									</div>
 									<div className="portfolio-item">
 										<img src="/cinemabox.png" className="portfolio-image" />
 										<h4 className="portfolio-name">Cinemabox</h4>
@@ -80,6 +101,9 @@ function Portfolio() {
 											</ul>
 										</div>
 									</div>
+								</div>
+
+								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
 										<img src="/cocktailguide.png" className="portfolio-image" />
 										<h4 className="portfolio-name">Cocktail Guide</h4>
