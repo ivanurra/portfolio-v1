@@ -68,7 +68,7 @@ function Portfolio() {
 										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
 											My portfolio. It's a Single Page Application (SPA), 
-											built with Next JS. I am in love with this framework.
+											built with Next.js. I am in love with this framework.
 											My goal was to have a minimalist portfolio 
 											where I could show my projects and facilitate contact with me.
 										</div>
