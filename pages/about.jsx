@@ -94,14 +94,14 @@ function About() {
                          </p>
                     </div>
 
-                    <motion.div
+                    {/* <motion.div
                       ref={ref}
                       initial="hidden"
                       animate={controls}
                       variants={variants}
-                    >
+                    > */}
                         <img src="/picgreen.jpg" alt="Ivan" className="pic-about" width="300" height="300"/>
-                    </motion.div>
+                    {/* </motion.div> */}
 
                 </div>
 
