@@ -41,7 +41,7 @@ function About() {
       <Head>
 			<title>ivanurra.dev</title>
 			<meta property='og:title' content='ivanurra.dev'/>
-			<meta property='og:image' content='https://ivanurra.dev/mockup.jpg'/>
+			<meta property='og:image' content='https://ivanurra.dev/mockup.png/'/>
 			<meta property='og:description' content='Portfolio: Ivan Urra - Full Stack Web Developer. Built with Next.js'/>
 			<meta property='og:url' content='https://ivanurra.dev/'/>
       </Head>
@@ -79,16 +79,20 @@ function About() {
                               <ul id="skills">
                               
                                     <li><i className="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
+                                    {/* <li><i className="fas fa-caret-right"></i>  TypeScript</li> */}
                                     <li><i className="fas fa-caret-right"></i>  React</li>
                                     {/* <li><i className="fas fa-caret-right"></i>  Angular</li> */}
                                     <li><i className="fas fa-caret-right"></i>  NextJS</li>
                                     <li><i className="fas fa-caret-right"></i>  GatsbyJS</li>
-                                    {/* <li><i className="fas fa-caret-right"></i>  TypeScript</li> */}
-                                    <li><i className="fas fa-caret-right"></i>  Handlebars</li>
-                                    <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
                                     <li><i className="fas fa-caret-right"></i>  NodeJS</li>
+
                                     <li><i className="fas fa-caret-right"></i>  ExpressJS</li>
                                     <li><i className="fas fa-caret-right"></i>  MongoDB</li>
+                                    <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
+                                    <li><i className="fas fa-caret-right"></i>  Bootstrap</li>
+                                    <li><i className="fas fa-caret-right"></i>  Bulma</li>
+
+                                    
 
                               </ul>
                          </p>
