@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
@@ -48,6 +48,7 @@ function Portfolio() {
 			<section className="hero">
 						<div className="container">
 							<div className="text-wrapper w-full">
+
 									<motion.div
 										ref={ref}
 										initial="hidden"
@@ -56,6 +57,7 @@ function Portfolio() {
 									>
 										<h1 className="title"><span className="color-number">02.</span>Some Things I’ve Built</h1>
 									</motion.div>
+
 								<p className="description">
 									I like to stay busy and always have a project in the works. Take a look at some of the applications I've dedicated my time to.
 								</p>
@@ -144,11 +146,12 @@ function Portfolio() {
 										</div>
 									</div>
 								</div>
+
 							</div>
 						</div>
 				</section>
 		</div>
 	);
-}
+};
 
 export default Portfolio;

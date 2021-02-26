@@ -113,4 +113,4 @@ export default function Navigation() {
                   </Navbar.Collapse>
             </Navbar>
   );
-}
+};

@@ -57,7 +57,6 @@ function About() {
                   <h1 className="title"><span className="color-number">01.</span>About Me</h1>
               </motion.div>
               
-              
                 <div className="about-box">
 
                     <div>
@@ -77,23 +76,16 @@ function About() {
                               <br/>
 
                               <ul id="skills">
-                              
                                     <li><i className="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
-                                    {/* <li><i className="fas fa-caret-right"></i>  TypeScript</li> */}
                                     <li><i className="fas fa-caret-right"></i>  React</li>
-                                    {/* <li><i className="fas fa-caret-right"></i>  Angular</li> */}
                                     <li><i className="fas fa-caret-right"></i>  NextJS</li>
                                     <li><i className="fas fa-caret-right"></i>  GatsbyJS</li>
                                     <li><i className="fas fa-caret-right"></i>  NodeJS</li>
-
                                     <li><i className="fas fa-caret-right"></i>  ExpressJS</li>
                                     <li><i className="fas fa-caret-right"></i>  MongoDB</li>
                                     <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
                                     <li><i className="fas fa-caret-right"></i>  Bootstrap</li>
                                     <li><i className="fas fa-caret-right"></i>  Bulma</li>
-
-                                    
-
                               </ul>
                          </p>
                     </div>
@@ -104,6 +96,6 @@ function About() {
       </section>
     </div>
   );
-}
+};
 
 export default About;

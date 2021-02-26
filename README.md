@@ -33,8 +33,9 @@ https://ivanurra.dev
 
 ## Built with 🛠️
 
-* [React](https://reactjs.org/) - Open source Javascript library designed to create user interfaces on a single page.
 * [NextJS](https://nextjs.org/) - Open-source React front-end development web framework.
+* [React](https://reactjs.org/) - Open source Javascript library designed to create user interfaces on a single page.
+* [Framer-Motion](https://www.framer.com/motion/) - A production-ready motion library for React.
 * [Vercel](https://vercel.com/) - For deployment.
 
 ## Author ✒️
