@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+////////////////
+// APP STYLES //
+////////////////
 
 //////// COLORS GUIDE /////////
 // font color: #1de49f       //
 // font color: #fefdfa       //
 // background-color: #222222 //
 ///////////////////////////////
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 body {
 	background-color: #222222;
@@ -379,9 +384,9 @@ a[href] {
 // RESPONSIVE //
 ////////////////
 
-/*/////////////////////////////////////*/
+/*/////////////////////////*/
 /* RESPONSIVE DESIGN * 990 */
-/*/////////////////////////////////////*/
+/*/////////////////////////*/
 
 @media (max-width: 990px) {
 
@@ -440,9 +445,7 @@ a[href] {
 			margin-top: 20px;
 	  }
 	}
-	
 }
-
 
 /*/////////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPad 1024 x 768 */
@@ -634,7 +637,6 @@ a[href] {
 	  }
 	}
 }
-
 
 /*/////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPhone 5/SE */

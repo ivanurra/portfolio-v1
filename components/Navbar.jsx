@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Navigation() {
   return (
-            <Navbar bg="transparent" expand="lg" variant="dark">
+      <Navbar bg="transparent" expand="lg" variant="dark">
                   <motion.div initial="hidden" animate="visible" variants={{
                         hidden: {
                               y: 25,
@@ -111,6 +111,6 @@ export default function Navigation() {
                         
                         </Nav>
                   </Navbar.Collapse>
-            </Navbar>
+      </Navbar>
   );
 };
