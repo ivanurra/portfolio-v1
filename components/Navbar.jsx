@@ -9,7 +9,7 @@ export default function Navigation() {
       <Navbar bg="transparent" expand="lg" variant="dark">
                   <motion.div initial="hidden" animate="visible" variants={{
                         hidden: {
-                              y: 25,
+                              y: 30,
                               scale: 1,
                               opacity: 0
                         },
@@ -18,7 +18,7 @@ export default function Navigation() {
                               scale: 1,
                               opacity: 1,
                               transition: {
-                              duration: 0.5,
+                              duration: 0.6,
                               delay: 0
                               }
                         }
