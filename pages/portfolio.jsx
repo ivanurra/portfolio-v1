@@ -64,7 +64,7 @@ function Portfolio() {
 
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
-										<img src="/ivanurradev2.png" className="portfolio-image" />
+										<img src="/ivanurradev.png" className="portfolio-image" />
 										<h4 className="portfolio-name">Portfolio</h4>
 										<a href="https://github.com/ivanurra/portfolio-v1" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
