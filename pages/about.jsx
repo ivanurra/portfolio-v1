@@ -80,12 +80,12 @@ function About() {
                                     <li><i className="fas fa-caret-right"></i>  React</li>
                                     <li><i className="fas fa-caret-right"></i>  NextJS</li>
                                     <li><i className="fas fa-caret-right"></i>  GatsbyJS</li>
+                                    <li><i className="fas fa-caret-right"></i>  VueJS</li>
                                     <li><i className="fas fa-caret-right"></i>  NodeJS</li>
                                     <li><i className="fas fa-caret-right"></i>  ExpressJS</li>
                                     <li><i className="fas fa-caret-right"></i>  MongoDB</li>
                                     <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
                                     <li><i className="fas fa-caret-right"></i>  Bootstrap</li>
-                                    <li><i className="fas fa-caret-right"></i>  Bulma</li>
                               </ul>
                          </p>
                     </div>

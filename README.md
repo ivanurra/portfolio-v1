@@ -1,4 +1,4 @@
-# PORTFOLIO WEBSITE - ivanurra.dev
+# PORTFOLIO - ivanurra.dev
 
 My portfolio website.
 Built with Next.js.
