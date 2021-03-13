@@ -77,7 +77,7 @@ function About() {
 
                               <ul id="skills">
                                     <li><i className="fas fa-caret-right"></i>  JavaScript (ES6+)</li>
-                                    <li><i className="fas fa-caret-right"></i>  React</li>
+                                    <li><i className="fas fa-caret-right"></i>  ReactJS</li>
                                     <li><i className="fas fa-caret-right"></i>  NextJS</li>
                                     <li><i className="fas fa-caret-right"></i>  GatsbyJS</li>
                                     <li><i className="fas fa-caret-right"></i>  VueJS</li>
