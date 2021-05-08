@@ -19,17 +19,18 @@ function Contact() {
 	  }
 	}, [controls, inView]);
   
-	const variants = { 
-	  hidden: { 
-		scale: 1, 
-		opacity: 0, 
-		y: 40 },
-	  visible: {
-		scale: 1,
-		opacity: 1,
-		y: 0,
-		transition: { delay: 0.5, duration: 1 }
-	  }
+	const variants = {
+		hidden: { 
+			scale: 1, 
+			opacity: 0, 
+			y: 40 
+		},
+		visible: {
+			scale: 1,
+			opacity: 1,
+			y: 0,
+			transition: { delay: 0.5, duration: 1 }
+		}
 	}
 
 	return (

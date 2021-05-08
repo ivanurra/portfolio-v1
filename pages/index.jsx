@@ -1,10 +1,10 @@
-import Link from 'next/link';
-import Head from 'next/head';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import About from './about';
-import Portfolio from './portfolio';
+import Footer from '../components/Footer';
 import Contact from './contact';
+import Head from 'next/head';
+import Link from 'next/link';
+import Navbar from '../components/Navbar';
+import Portfolio from './portfolio';
 import { motion } from 'framer-motion';
 
 function Home() {
