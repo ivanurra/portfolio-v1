@@ -40,11 +40,16 @@ function Portfolio() {
 	return (
 		<div id="portfolio">
 			<Head>
-			<title>ivanurra.dev</title>
-			<meta property='og:title' content='ivanurra.dev'/>
-			<meta property='og:image' content='https://ivanurra.dev/mockup.png/'/>
-			<meta property='og:description' content='Portfolio: Ivan Urra - Full Stack Web Developer. Built with Next.js'/>
-			<meta property='og:url' content='https://ivanurra.dev/'/>
+				<title>ivanurra.dev</title>
+				<meta itemprop="name" content="Ivan Urra"/>
+				<meta itemprop="url" content="https://ivanurra.dev/"/>
+				<meta property='og:description' content='Ivan Urra Portfolio - Full Stack Web Developer'/>
+				<meta property='og:image' content='https://ivanurra.dev/mockup.png/'/>
+				<meta property="og:site_name" content="Ivan Urra Full Stack Web Developer"/>
+				<meta property="og:title" content="ivanurra.dev"/>
+				<meta property="og:type" content="website"/>
+				<meta property='og:url' content='https://ivanurra.dev/'/>
+				<meta name="description" content="Ivan Urra Portfolio - Full Stack Web Developer" />
 			</Head>
 			<section className="hero">
 						<div className="container">
