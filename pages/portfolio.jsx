@@ -44,7 +44,7 @@ function Portfolio() {
 				<meta itemprop="name" content="Ivan Urra"/>
 				<meta itemprop="url" content="https://ivanurra.dev/"/>
 				<meta property='og:description' content='Ivan Urra Portfolio - Full Stack Web Developer'/>
-				<meta property='og:image' content='https://ivanurra.dev/mockup.png/'/>
+				<meta property='og:image' content='https://ivanurra.dev/mockup.webp/'/>
 				<meta property="og:site_name" content="Ivan Urra Full Stack Web Developer"/>
 				<meta property="og:title" content="ivanurra.dev"/>
 				<meta property="og:type" content="website"/>
