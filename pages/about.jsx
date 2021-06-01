@@ -94,7 +94,7 @@ function About() {
                               </ul>
                          </p>
                     </div>
-                        <img src="/picgreen.jpg" alt="Ivan" className="pic-about" width="300" height="300"/>
+                        <img src="/picgreen.webp" alt="Ivan" className="pic-about" width="300" height="300"/>
                 </div>
           </div>
         </div>

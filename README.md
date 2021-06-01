@@ -3,7 +3,7 @@
 My portfolio website.
 Built with Next.js.
 
-![Screenshot](public/mockup.png)
+![Screenshot](public/mockup.webp)
 
 ## Getting Started 🚀
 
