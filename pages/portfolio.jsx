@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
 
-function Portfolio() {
+export default function Portfolio() {
 
 	const controls = useAnimation();
 	const { ref, inView } = useInView({
@@ -70,7 +70,7 @@ function Portfolio() {
 
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
-										<img src="/ivanurradev.png" className="portfolio-image" />
+										<img src="/ivanurradev.webp" className="portfolio-image" />
 										<h4 className="portfolio-name">Portfolio</h4>
 										<a href="https://github.com/ivanurra/portfolio-v1" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
@@ -90,7 +90,7 @@ function Portfolio() {
 										</div>
 									</div>
 									<div className="portfolio-item">
-										<img src="/cinemabox.png" className="portfolio-image" />
+										<img src="/cinemabox.webp" className="portfolio-image" />
 										<h4 className="portfolio-name">Cinemabox</h4>
 										<a href="https://github.com/ivanurra/cinema_box_frontend" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
@@ -113,7 +113,7 @@ function Portfolio() {
 
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
-										<img src="/cocktailguide.png" className="portfolio-image" />
+										<img src="/cocktailguide.webp" className="portfolio-image" />
 										<h4 className="portfolio-name">Cocktail Guide</h4>
 										<a href="https://github.com/ivanurra/cocktail-guide" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://cocktailguide.herokuapp.com" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
@@ -133,7 +133,7 @@ function Portfolio() {
 										</div>
 									</div>
 									<div className="portfolio-item">
-										<img src="/politico.png" className="portfolio-image" />
+										<img src="/politico.webp" className="portfolio-image" />
 										<h4 className="portfolio-name">El Politico</h4>
 										<a href="https://github.com/ivanurra/elPolitico-videogame" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://ivanurra.github.io/elPolitico-videogame/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
@@ -159,5 +159,3 @@ function Portfolio() {
 		</div>
 	);
 };
-
-export default Portfolio;
