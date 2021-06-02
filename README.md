@@ -1,7 +1,6 @@
 # PORTFOLIO - ivanurra.dev
 
 My portfolio website.
-Built with Next.js.
 
 ![Screenshot](public/mockup.webp)
 

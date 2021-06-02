@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
 
-function About() {
+export default function About() {
 
   const controls = useAnimation();
   const { ref, inView } = useInView({
@@ -102,5 +102,3 @@ function About() {
     </div>
   );
 };
-
-export default About;

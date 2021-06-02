@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 import Portfolio from './portfolio';
 import { motion } from 'framer-motion';
 
-function Home() {
+export default function Home() {
   return (
     <>
       <Head>
@@ -56,5 +56,3 @@ function Home() {
     </>
   );
 };
-
-export default Home;
