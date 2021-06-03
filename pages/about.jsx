@@ -89,7 +89,7 @@ export default function About() {
                                     <li><i className="fas fa-caret-right"></i>  NodeJS</li>
                                     <li><i className="fas fa-caret-right"></i>  ExpressJS</li>
                                     <li><i className="fas fa-caret-right"></i>  MongoDB</li>
-                                    <li><i className="fas fa-caret-right"></i>  CMS(Strapi)</li>
+                                    <li><i className="fas fa-caret-right"></i>  PHP</li>
                                     <li><i className="fas fa-caret-right"></i>  HTML & (S)CSS</li>
                               </ul>
                          </p>
