@@ -70,8 +70,8 @@ export default function Portfolio() {
 
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
-										<img src="/ivanurradev.webp" className="portfolio-image" />
-										<h4 className="portfolio-name">Portfolio</h4>
+										<img src="/ivanurradev.webp" className="portfolio-image" alt="ivanurra.dev webpage" />
+										<p className="portfolio-name h4">Portfolio</p>
 										<a href="https://github.com/ivanurra/portfolio-v1" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
@@ -90,8 +90,8 @@ export default function Portfolio() {
 										</div>
 									</div>
 									<div className="portfolio-item">
-										<img src="/cinemabox.webp" className="portfolio-image" />
-										<h4 className="portfolio-name">Cinemabox</h4>
+										<img src="/cinemabox.webp" className="portfolio-image" alt="cinemabox webpage" />
+										<p className="portfolio-name h4">Cinemabox</p>
 										<a href="https://github.com/ivanurra/cinema_box_frontend" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
@@ -113,8 +113,8 @@ export default function Portfolio() {
 
 								<div className="portfolio-wrapper">
 									<div className="portfolio-item">
-										<img src="/cocktailguide.webp" className="portfolio-image" />
-										<h4 className="portfolio-name">Cocktail Guide</h4>
+										<img src="/cocktailguide.webp" className="portfolio-image" alt="cocktailguide webpage" />
+										<p className="portfolio-name h4">Cocktail Guide</p>
 										<a href="https://github.com/ivanurra/cocktail-guide" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://cocktailguide.herokuapp.com" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">
@@ -133,8 +133,8 @@ export default function Portfolio() {
 										</div>
 									</div>
 									<div className="portfolio-item">
-										<img src="/politico.webp" className="portfolio-image" />
-										<h4 className="portfolio-name">El Politico</h4>
+										<img src="/politico.webp" className="portfolio-image" alt="politico webpage" />
+										<p className="portfolio-name h4">El Politico</p>
 										<a href="https://github.com/ivanurra/elPolitico-videogame" rel="noopener" target="_blank"><i className="fab fa-github"></i></a>
 										<a href="https://ivanurra.github.io/elPolitico-videogame/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i></a>
 										<div className="portfolio-category">

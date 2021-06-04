@@ -54,6 +54,10 @@ a[href] {
 	.navbar-nav a{
 		cursor: pointer;
 		margin-left: 10px;
+
+		&:hover {
+			color: #1de49f;
+		}
 	}
 
 	.resume{

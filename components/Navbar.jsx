@@ -46,7 +46,7 @@ export default function Navigation() {
                                           }
                                     }
                                     }}>
-                                          <a><span className="color-number">01.</span>About</a>
+                                          <a href="/about" style={{textDecoration: 'none'}}><span className="color-number">01.</span>About</a>
                                     </motion.div>
                               </Link>
 
@@ -65,7 +65,7 @@ export default function Navigation() {
                                                 }
                                           }
                                           }}>
-                                                <a><span className="color-number">02.</span>Portfolio</a>
+                                                <a href="/portfolio" style={{textDecoration: 'none'}}><span className="color-number">02.</span>Portfolio</a>
                                     </motion.div>
                               </Link>
                         
@@ -84,7 +84,7 @@ export default function Navigation() {
                                                 }
                                           }
                                           }}>
-                                                <a ><span className="color-number">03.</span>Contact</a>
+                                                <a href="/contact" style={{textDecoration: 'none'}} className=""><span className="color-number">03.</span>Contact</a>
                                     </motion.div>
                               </Link>
 
@@ -104,7 +104,7 @@ export default function Navigation() {
                                                       }
                                                 }
                                                 }}>
-                                                      <a className="resume">Resume</a>
+                                                      <a href="/resumeivanurra.pdf" className="resume" style={{textDecoration: 'none'}}>Resume</a>
                                           </motion.div>
                                     </LinkNext>
                               </Link>
