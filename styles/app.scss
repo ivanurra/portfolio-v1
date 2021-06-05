@@ -162,9 +162,9 @@ a[href] {
 
 	}
 
-	.image-wrapper {
-		text-align: right;
-	}
+	// .image-wrapper {
+	// 	text-align: right;
+	// }
 }
 
 .portfolio-wrapper {
@@ -244,6 +244,7 @@ a[href] {
   
   .footer li {
 	padding: 10px 10px;
+	list-style: none;
   }
   
   .footer a {
@@ -259,9 +260,9 @@ a[href] {
 	transition: color 0.3s linear;
   }
   
-  .footer ul li {
-	list-style: none;
-  }
+//   .footer ul li {
+// 	list-style: none;
+//   }
 
   .footer-name{
 	align-items: center;
@@ -279,16 +280,16 @@ a[href] {
 	margin: 50px 0 0 0;
   }
   
-  .contact ul {
-	align-items: center;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-  }
+//   .contact ul {
+// 	align-items: center;
+// 	display: flex;
+// 	flex-flow: row wrap;
+// 	justify-content: center;
+//   }
   
-  .contact li {
-	padding: 10px 10px;
-  }
+//   .contact li {
+// 	padding: 10px 10px;
+//   }
   
   .contact a {
 	cursor: pointer;
@@ -299,9 +300,9 @@ a[href] {
 	transition: color 0.3s linear;
   }
   
-  .contact ul li {
-	list-style: none;
-  }
+//   .contact ul li {
+// 	list-style: none;
+//   }
 
 ////////////
 // SKILLS //
@@ -345,10 +346,10 @@ a[href] {
 
   }
 
-  .gitlogo{
-	margin-right: 9px;
-	font-size: 2em;
-  }
+//   .gitlogo{
+// 	margin-right: 9px;
+// 	font-size: 2em;
+//   }
 
 /////////////
 // LANDING //

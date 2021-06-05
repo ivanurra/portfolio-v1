@@ -53,7 +53,7 @@ function Footer() {
                     rel="noopener"
                     target="_blank"
                   >
-                    <i className="fas fa-envelope-open foot"></i>
+                    <i className="fas fa-envelope-open foot"><span style={{display:'none'}}>Email</span></i>
                   </a>
                 </li>
 
@@ -64,7 +64,7 @@ function Footer() {
                     rel="noopener"
                     target="_blank"
                   >
-                    <i className="fab fa-github foot"></i>
+                    <i className="fab fa-github foot"><span style={{display:'none'}}>Github</span></i>
                   </a>
                 </li>
       
@@ -76,13 +76,13 @@ function Footer() {
                     className="linkedin"
                     target="_blank"
                   >
-                    <i className="fab fa-linkedin foot"></i>
+                    <i className="fab fa-linkedin foot"><span style={{display:'none'}}>LinkedIn</span></i>
                   </a>
                 </li>
 
               </ul>
 
-              <p className="footer-name">Designed & Built by Ivan Urra</p>
+              <p className="footer-name">&copy; {new Date().getFullYear()} Designed & Built by Ivan Urra</p>
               
             </nav>
           </footer>
