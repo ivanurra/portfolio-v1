@@ -72,8 +72,8 @@ export default function Portfolio() {
 									<div className="portfolio-item">
 										<img src="/ivanurradev.webp" className="portfolio-image" alt="ivanurra.dev webpage" />
 										<p className="portfolio-name h4">Portfolio</p>
-										<a href="https://github.com/ivanurra/portfolio-v1" rel="noopener" target="_blank"><i className="fab fa-github"></i><span style={{display:'none'}}>Git Portfolio</span></a>
-										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i><span style={{display:'none'}}>Web Portfolio</span></a>
+										<a href="https://github.com/ivanurra/portfolio-v1" rel="noopener" target="_blank"><i className="fab fa-github"><span style={{display:'none'}}>Git Portfolio</span></i></a>
+										<a href="https://ivanurra.dev" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"><span style={{display:'none'}}>Web Portfolio</span></i></a>
 										<div className="portfolio-category">
 											My portfolio. It's a Single Page Application (SPA), 
 											built with Next.js. I am in love with this framework.
@@ -92,8 +92,8 @@ export default function Portfolio() {
 									<div className="portfolio-item">
 										<img src="/cinemabox.webp" className="portfolio-image" alt="cinemabox webpage" />
 										<p className="portfolio-name h4">Cinemabox</p>
-										<a href="https://github.com/ivanurra/cinema_box_frontend" rel="noopener" target="_blank"><i className="fab fa-github"></i><span style={{display:'none'}}>Git Cinemabox</span></a>
-										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i><span style={{display:'none'}}>Web Cinemabox</span></a>
+										<a href="https://github.com/ivanurra/cinema_box_frontend" rel="noopener" target="_blank"><i className="fab fa-github"><span style={{display:'none'}}>Git Cinemabox</span></i></a>
+										<a href="https://cinemabox.netlify.app/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"><span style={{display:'none'}}>Web Cinemabox</span></i></a>
 										<div className="portfolio-category">
 											App about movies and TV shows. You will be able to check the 
 											latest releases and the blockbusters of the moment.
@@ -115,8 +115,8 @@ export default function Portfolio() {
 									<div className="portfolio-item">
 										<img src="/cocktailguide.webp" className="portfolio-image" alt="cocktailguide webpage" />
 										<p className="portfolio-name h4">Cocktail Guide</p>
-										<a href="https://github.com/ivanurra/cocktail-guide" rel="noopener" target="_blank"><i className="fab fa-github"></i><span style={{display:'none'}}>Git Cocktail Guide</span></a>
-										<a href="https://cocktailguide.herokuapp.com" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i><span style={{display:'none'}}>Web Cocktail Guide</span></a>
+										<a href="https://github.com/ivanurra/cocktail-guide" rel="noopener" target="_blank"><i className="fab fa-github"><span style={{display:'none'}}>Git Cocktail Guide</span></i></a>
+										<a href="https://cocktailguide.herokuapp.com" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"><span style={{display:'none'}}>Web Cocktail Guide</span></i></a>
 										<div className="portfolio-category">
 											App about cocktails. You can choose hundreds of 
 											recipes and you can sign up to upload your own creations and 
@@ -135,8 +135,8 @@ export default function Portfolio() {
 									<div className="portfolio-item">
 										<img src="/politico.webp" className="portfolio-image" alt="politico webpage" />
 										<p className="portfolio-name h4">El Politico</p>
-										<a href="https://github.com/ivanurra/elPolitico-videogame" rel="noopener" target="_blank"><i className="fab fa-github"></i><span style={{display:'none'}}>Git El Politico</span></a>
-										<a href="https://ivanurra.github.io/elPolitico-videogame/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"></i><span style={{display:'none'}}>Web El Politico</span></a>
+										<a href="https://github.com/ivanurra/elPolitico-videogame" rel="noopener" target="_blank"><i className="fab fa-github"><span style={{display:'none'}}>Git El Politico</span></i></a>
+										<a href="https://ivanurra.github.io/elPolitico-videogame/" rel="noopener" target="_blank"><i className="fas fa-external-link-alt"><span style={{display:'none'}}>Web El Politico</span></i></a>
 										<div className="portfolio-category">
 											Videogame created with the challenge of finishing it in just four days. 
 											I used Canvas for the 2D graphics and it is developed with JavaScript, 
