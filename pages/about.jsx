@@ -125,7 +125,7 @@ export default function About() {
                       <i className="fas fa-caret-right"></i> HTML & (S)CSS
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> UX/UI
+                      <i className="fas fa-caret-right"></i> UX/UI Design
                     </li>
                   </ul>
                 </p>
