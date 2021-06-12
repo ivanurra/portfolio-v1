@@ -76,7 +76,7 @@ export default function About() {
             <div className="about-box">
               <div>
                 <p className="description">
-                  Hello!{" "}
+                  Hi!{" "}
                   <span className="color-number">
                     I'm Iván, a Full Stack Web Developer
                   </span>
