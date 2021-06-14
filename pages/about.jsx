@@ -116,10 +116,10 @@ export default function About() {
                       <i className="fas fa-caret-right"></i> NodeJS
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> MongoDB
+                      <i className="fas fa-caret-right"></i> ExpressJS
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> PHP
+                      <i className="fas fa-caret-right"></i> MongoDB
                     </li>
                     <li>
                       <i className="fas fa-caret-right"></i> HTML & (S)CSS
