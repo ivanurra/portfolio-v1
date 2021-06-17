@@ -46,7 +46,7 @@ export default function About() {
           property="og:description"
           content="Ivan Urra Portfolio - Full Stack Web Developer"
         />
-        <meta property="og:image" content="https://ivanurra.dev/mockup.webp/" />
+        <meta property="og:image" content="https://ivanurra.dev/mockup.jpg/" />
         <meta
           property="og:site_name"
           content="Ivan Urra Full Stack Web Developer"
