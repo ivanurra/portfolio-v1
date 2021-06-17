@@ -42,7 +42,8 @@ export default function Contact() {
           property="og:description"
           content="Ivan Urra Portfolio - Full Stack Web Developer"
         />
-        <meta property="og:image" content="https://www.ivanurra.dev/mockup-pic.jpg/" />
+        <meta property="og:image" content="http://ivanurra.dev/mockup-pic.jpg/" />
+        <meta property="og:image:secure_url" content="https://ivanurra.dev/mockup-pic.jpg/" /> 
         <meta
           property="og:site_name"
           content="Ivan Urra Full Stack Web Developer"
