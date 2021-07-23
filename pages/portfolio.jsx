@@ -76,7 +76,7 @@ export default function Portfolio() {
 
             <p className="description">
               I like to stay busy and always have a project in the works. Take a
-              look at some of the applications I've dedicated my time to.
+              look at some of the applications I've dedicated my time to:
             </p>
 
             <div className="portfolio-wrapper">
