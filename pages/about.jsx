@@ -111,9 +111,6 @@ export default function About() {
                       <i className="fas fa-caret-right"></i> GatsbyJS
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> VueJS
-                    </li>
-                    <li>
                       <i className="fas fa-caret-right"></i> NodeJS
                     </li>
                     <li>
@@ -127,6 +124,9 @@ export default function About() {
                     </li>
                     <li>
                       <i className="fas fa-caret-right"></i> UX/UI Design
+                    </li>
+                    <li>
+                      <i className="fas fa-caret-right"></i> Figma
                     </li>
                   </ul>
                 </p>
