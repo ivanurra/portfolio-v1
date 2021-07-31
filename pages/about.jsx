@@ -79,9 +79,9 @@ export default function About() {
                 <p className="description">
                   Hello!{" "}
                   <span className="color-number">
-                    I'm Iván, a Full Stack Web Developer
+                    I'm Iván, a Full Stack Web Developer.
                   </span>
-                  based in Madrid, Spain. I enjoy creating things that live on
+                  I enjoy creating things that live on
                   the internet. I am very excited about the possibilities of
                   technology making life simpler.
                   <br />

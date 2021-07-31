@@ -60,9 +60,11 @@ export default function Home() {
             <h1 className="myName">
               Iván Urra<span className="color-number">.</span>
             </h1>
-            <p className="myName-description">
-              I'm a Full Stack Web Developer based in Madrid, Spain.
-            </p>
+            <div className="col-xl-8 pl-0">
+              <p className="myName-description">
+                I'm a Full Stack Web Developer specializing in building (and occasionally designing) exceptional digital experiences.
+              </p>
+            </div>
             <a href="mailto:ivan.urra.dev@gmail.com" className="cta">
               <i className="fas fa-paper-plane"></i>Contact me
             </a>
