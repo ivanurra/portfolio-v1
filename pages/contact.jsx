@@ -42,8 +42,14 @@ export default function Contact() {
           property="og:description"
           content="Ivan Urra Portfolio - Full Stack Web Developer"
         />
-        <meta property="og:image" content="http://ivanurra.dev/mockup-pic.jpg/" />
-        <meta property="og:image:secure_url" content="https://ivanurra.dev/mockup-pic.jpg/" /> 
+        <meta
+          property="og:image"
+          content="http://ivanurra.dev/mockup-pic.jpg/"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://ivanurra.dev/mockup-pic.jpg/"
+        />
         <meta
           property="og:site_name"
           content="Ivan Urra Full Stack Web Developer"
@@ -71,9 +77,8 @@ export default function Contact() {
             </motion.div>
 
             <p className="description-contact col-xl-8 pl-0">
-              My inbox is always open. Feel free to reach out if you're looking
-              for a developer, have a question, or just want to say hi. I'll try
-              my best to get back to you!
+              My inbox is always open. Whether you have a question or just want
+              to say hi, I'll try my best to get back to you!
             </p>
 
             <a href="mailto:ivan.urra.dev@gmail.com" className="cta-contact">
