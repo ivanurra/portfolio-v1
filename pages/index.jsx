@@ -60,7 +60,7 @@ export default function Home() {
             <h1 className="myName">
               Iván Urra<span className="color-number">.</span>
             </h1>
-            <div className="col-xl-8 pl-0">
+            <div className="col-xl-7 pl-0">
               <p className="myName-description">
                 I'm a Full Stack Web Developer specializing in building (and occasionally designing) exceptional digital experiences.
               </p>

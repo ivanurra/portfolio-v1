@@ -76,7 +76,7 @@ export default function Contact() {
               </h1>
             </motion.div>
 
-            <p className="description-contact col-xl-8 pl-0">
+            <p className="description-contact col-xl-6 pl-0">
               My inbox is always open. Whether you have a question or just want
               to say hi, I'll try my best to get back to you!
             </p>
