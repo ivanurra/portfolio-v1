@@ -36,8 +36,8 @@ export default function Contact() {
     <div id="contact">
       <Head>
         <title>ivanurra.dev</title>
-        <meta itemprop="name" content="Ivan Urra" />
-        <meta itemprop="url" content="https://ivanurra.dev/" />
+        <meta itemProp="name" content="Ivan Urra" />
+        <meta itemProp="url" content="https://ivanurra.dev/" />
         <meta
           property="og:description"
           content="Ivan Urra Portfolio - Full Stack Web Developer"
