@@ -48,11 +48,11 @@ export default function About() {
         />
         <meta
           property="og:image"
-          content="http://ivanurra.dev/mockup-pic.jpg/"
+          content="http://ivanurra.dev/mockup-pic.jpg"
         />
         <meta
           property="og:image:secure_url"
-          content="https://ivanurra.dev/mockup-pic.jpg/"
+          content="https://ivanurra.dev/mockup-pic.jpg"
         />
         <meta
           property="og:site_name"
