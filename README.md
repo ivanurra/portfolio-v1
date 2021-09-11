@@ -2,7 +2,9 @@
 
 My portfolio website. Built with NextJS.
 
+
 ![Screenshot](public/mockup-pic.jpg)
+
 
 ## Getting Started 🚀
 
@@ -26,7 +28,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Deployment 📦
 
-LIVE DEMO:
+URL:
 
 https://ivanurra.dev
 
@@ -43,6 +45,6 @@ https://ivanurra.dev
 
 ## License 📄
 
-MIT License. 
-
 Copyright (c) 2021 Iván Urra
+
+MIT License. 
