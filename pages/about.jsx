@@ -120,7 +120,7 @@ export default function About() {
                       <i className="fas fa-caret-right"></i> TypeScript
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> Node.js
+                      <i className="fas fa-caret-right"></i> Node JS
                     </li>
                     <li>
                       <i className="fas fa-caret-right"></i> Express JS
