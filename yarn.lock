@@ -1837,9 +1837,9 @@
     "scheduler" "^0.20.2"
 
 "react-intersection-observer@^8.32.0":
-  "integrity" "sha512-RlC6FvS3MFShxTn4FHAy904bVjX5Nn4/eTjUkurW0fHK+M/fyQdXuyCy9+L7yjA+YMGogzzSJNc7M4UtfSKvtw=="
-  "resolved" "https://registry.npmjs.org/react-intersection-observer/-/react-intersection-observer-8.32.0.tgz"
-  "version" "8.32.0"
+  "integrity" "sha512-QTcea+n28AvOHbTku+jErfQqknbc4Nuh7EUNik8p/JMN56W2Jhjs+qcYZzQhAoyLX8pZD0QXpYX0lW87faackQ=="
+  "resolved" "https://registry.npmjs.org/react-intersection-observer/-/react-intersection-observer-8.32.2.tgz"
+  "version" "8.32.2"
 
 "react-is@^16.3.2", "react-is@^16.8.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
