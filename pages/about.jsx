@@ -116,9 +116,9 @@ export default function About() {
                     <li>
                       <i className="fas fa-caret-right"></i> Gatsby JS
                     </li>
-                    {/* <li>
+                    <li>
                       <i className="fas fa-caret-right"></i> TypeScript
-                    </li> */}
+                    </li>
                     <li>
                       <i className="fas fa-caret-right"></i> Node JS
                     </li>
@@ -129,11 +129,11 @@ export default function About() {
                       <i className="fas fa-caret-right"></i> MongoDB
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> HTML & (S)CSS
+                      <i className="fas fa-caret-right"></i> HTML
                     </li>
-                    {/* <li>
-                      <i className="fas fa-caret-right"></i> 
-                    </li> */}
+                    <li>
+                      <i className="fas fa-caret-right"></i> (S)CSS
+                    </li>
                   </ul>
                 </p>
               </div>
