@@ -1,4 +1,4 @@
-// Ivan Urra - Full Stack Web Developer - Portfolio v1.0 - (c) 2021 - MIT LICENSE
+// Ivan Urra - Full Stack Web Developer - Portfolio v1.0 - (c) 2022 - MIT LICENSE
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/app.scss";
 import { useEffect } from "react";
