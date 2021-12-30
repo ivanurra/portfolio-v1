@@ -117,9 +117,6 @@ export default function About() {
                       <i className="fas fa-caret-right"></i> Gatsby JS
                     </li>
                     <li>
-                      <i className="fas fa-caret-right"></i> TypeScript
-                    </li>
-                    <li>
                       <i className="fas fa-caret-right"></i> Node JS
                     </li>
                     <li>
