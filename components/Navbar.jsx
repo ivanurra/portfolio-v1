@@ -6,7 +6,11 @@ import { motion } from "framer-motion";
 
 export default function Navigation() {
   return (
-    <Navbar bg="transparent" expand="lg" variant="dark">
+    <Navbar
+      expand="lg"
+      variant="dark"
+      className="fixed-top color-nav"
+    >
       <motion.div
         initial="hidden"
         animate="visible"
@@ -32,9 +36,9 @@ export default function Navigation() {
         </Navbar.Brand>
       </motion.div>
 
-      <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav className="ml-auto mt-4">
           <Link
             activeClass="active"
             to="about"
