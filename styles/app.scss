@@ -23,16 +23,16 @@ a[href] {
 	margin-right: auto;
 }
 
-.color-number{
+.color-number {
 	color: #1de49f;
 	margin-right: 7px;
 }
 
-.color-company{
+.color-company {
 	color: #1de49f;
 }
 
-.navbar{
+.navbar {
 	font-size: 1em;
 	max-width: 200vw;
 	margin-left: 10px;
@@ -52,7 +52,7 @@ a[href] {
 		}
 	}
 
-	.navbar-nav a{
+	.navbar-nav a {
 		cursor: pointer;
 		margin-left: 10px;
 		margin-bottom: 25px;
@@ -62,7 +62,7 @@ a[href] {
 		}
 	}
 
-	.resume{
+	.resume {
 		border: 1px solid #1de49f;
 		border-radius: 10%;
 		color: #1de49f;
@@ -70,10 +70,10 @@ a[href] {
 		padding: 8px 15px 8px 15px;
 		text-decoration: none;
 		transition: background-color .3s;
-	
-			&:hover {
-				background-color: #06442e;
-			}
+
+		&:hover {
+			background-color: #06442e;
+		}
 	}
 }
 
@@ -94,18 +94,18 @@ a[href] {
 			margin-top: 0;
 		}
 
-		.hello{
+		.hello {
 			color: #1de49f;
 			font-size: 1.3em;
 		}
 
-		.myName{
+		.myName {
 			font-size: 7em;
 			margin-bottom: 0px;
 			margin-top: 0px;
 		}
 
-		.myName-description{
+		.myName-description {
 			font-size: 1.3em;
 			padding-left: 0px;
 
@@ -113,13 +113,13 @@ a[href] {
 				position: relative;
 				color: #1de49f;
 				text-decoration: none;
-			  }
-			  
-			  a:hover {
-				color: #1de49f;
-			  }
+			}
 
-			  a::before {
+			a:hover {
+				color: #1de49f;
+			}
+
+			a::before {
 				content: "";
 				position: absolute;
 				display: block;
@@ -131,12 +131,12 @@ a[href] {
 				transform: scaleX(0);
 				transform-origin: top left;
 				transition: transform 0.6s ease;
-			  }
+			}
 
-			  a:hover::before {
+			a:hover::before {
 				transform: scaleX(1);
-			  }
-			
+			}
+
 		}
 
 		.description {
@@ -165,7 +165,7 @@ a[href] {
 			}
 		}
 
-		.cta-resume{
+		.cta-resume {
 			background-color: #1de49f;
 			border-radius: 5px;
 			color: #222222;
@@ -181,17 +181,17 @@ a[href] {
 			}
 		}
 
-		.cta-contact{
+		.cta-contact {
 			background-color: #1de49f;
 			border-radius: 5px;
 			color: #222222;
 			display: inline-block;
 			margin-top: 20px;
-			position: relative;		
+			position: relative;
 			padding: 15px 20px;
 			text-decoration: none;
 			transition: transform .3s;
-			
+
 			&:hover {
 				transform: scale(1.1);
 			}
@@ -235,7 +235,7 @@ a[href] {
 			color: #999;
 			font-size: 1em;
 			margin-top: 20px;
-			
+
 		}
 
 		.portfolio-stack {
@@ -243,13 +243,13 @@ a[href] {
 			color: #1de49f;
 			display: flex;
 			font-size: 1em;
-   			flex-direction: row;
-			justify-content: center; 
+			flex-direction: row;
+			justify-content: center;
 			list-style: none;
 			padding: 0;
 		}
 
-		.portfolio-stack li{
+		.portfolio-stack li {
 			margin-top: 5px;
 			margin-right: 5px;
 			margin-left: 5px;
@@ -263,92 +263,92 @@ a[href] {
 
 .footer {
 	border-top: 1px solid #eaeaea;
-  }
-  
-  .footer ul {
+}
+
+.footer ul {
 	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	margin-left: -40px;
 	margin-top: 10px;
-  }
-  
-  .footer li {
+}
+
+.footer li {
 	padding: 10px 10px;
 	list-style: none;
-  }
-  
-  .footer a {
+}
+
+.footer a {
 	cursor: pointer;
 	font-size: 2em;
 
 	&:hover {
 		color: #1de49f;
 	}
-  }
-  
-  .footer a:hover {
+}
+
+.footer a:hover {
 	transition: color 0.3s linear;
-  }
-  
-  .footer-name{
+}
+
+.footer-name {
 	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
 	font-size: 1em;
 	justify-content: center;
-  }
+}
 
 /////////////
 // CONTACT //
 /////////////
 
-  .contact {
+.contact {
 	margin: 50px 0 0 0;
-  }
+}
 
-  .contact a {
+.contact a {
 	cursor: pointer;
 	font-size: 1em;
-  }
-  
-  .contact a:hover {
+}
+
+.contact a:hover {
 	transition: color 0.3s linear;
-  }
+}
 
 ////////////
 // SKILLS //
 ////////////
 
-  .fa-caret-right{
+.fa-caret-right {
 	color: #1de49f;
 	margin-right: 7px;
-  }
+}
 
-  #skills li {
+#skills li {
 	display: inline-block;
 	font-size: 0.8em;
 	height: 25px;
 	margin-top: 30px;
 	margin-right: 2px;
 	width: 140px;
-  }
+}
 
 ///////////////  
 // PORTFOLIO //
 ///////////////
 
-  .fa-external-link-alt{
+.fa-external-link-alt {
 	font-size: 2em;
 	margin-right: 20px;
 
 	&:hover {
 		color: #1de49f;
 	}
-  }
+}
 
-  .fa-github{
+.fa-github {
 	font-size: 2em;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -357,41 +357,41 @@ a[href] {
 		color: #1de49f;
 	}
 
-  }
+}
 
 /////////////
 // LANDING //
 /////////////
 
-  .fa-paper-plane{
+.fa-paper-plane {
 	margin-right: 9px;
-  }
+}
 
-  .fa-file-alt{
+.fa-file-alt {
 	margin-right: 9px;
-  }
+}
 
 //////////////////
 /* FOOTER LOGOS */
 //////////////////
 
-  .foot{
+.foot {
 	font-size: 1em;
-  }
+}
 
 ///////////
 /* ABOUT */
 ///////////
 
-  .pic-about{
+.pic-about {
 	margin-left: 30px;
-	border-radius: 50%;  
-  }
+	border-radius: 50%;
+}
 
- .about-box{
+.about-box {
 	display: flex;
 	flex-direction: row;
- }
+}
 
 /*/////////////////////////*/
 /* RESPONSIVE DESIGN * 990 */
@@ -406,53 +406,53 @@ a[href] {
 		.text-wrapper {
 			margin-bottom: 70px;
 
-			.myName{
+			.myName {
 				font-size: 10em;
 			}
 		}
 	}
 
-	.navbar{
-		.navbar-brand{
+	.navbar {
+		.navbar-brand {
 			font-size: 2.6em;
 		}
 
-		.navbar-nav a{
+		.navbar-nav a {
 			margin-top: 16px;
 		}
 	}
 
-	.about-box{
+	.about-box {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-	 }
+	}
 
-	 #skills li {
+	#skills li {
 		display: inline-block;
 		font-size: 0.8em;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
 		width: 140px;
-	  }
+	}
 
-	 .pic-about{
+	.pic-about {
 		margin-left: 0px;
 		margin-top: 10px;
 		height: 300px;
 		width: 300px;
-	  }
+	}
 
-	  .portfolio-wrapper {
+	.portfolio-wrapper {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
 
 		.portfolio-item {
 			margin-top: 20px;
-	  }
+		}
 	}
 }
 
@@ -469,126 +469,126 @@ a[href] {
 		.text-wrapper {
 			margin-bottom: 70px;
 
-			.myName{
+			.myName {
 				font-size: 8em;
 			}
 		}
 	}
 
-	.navbar{
-		.navbar-brand{
+	.navbar {
+		.navbar-brand {
 			font-size: 1.8em;
 		}
 
-		.navbar-nav a{
+		.navbar-nav a {
 			margin-top: 16px;
 		}
 	}
 
-	.about-box{
+	.about-box {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-	 }
+	}
 
-	 #skills li {
+	#skills li {
 		display: inline-block;
 		font-size: 0.8em;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
 		width: 140px;
-	  }
-	  
-	 .pic-about{
+	}
+
+	.pic-about {
 		height: 250px;
 		margin-left: 0px;
 		margin-top: 10px;
 		width: 250px;
-	  }
+	}
 
-	  .portfolio-wrapper {
+	.portfolio-wrapper {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
 
 		.portfolio-item {
 			margin-top: 20px;
-	  }
+		}
 	}
-	
+
 }
 
 /*///////////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPhone 6/7/8 Plus */
 /*///////////////////////////////////////*/
-  
-  @media (max-width: 415px) {
-  
-		.hero {
+
+@media (max-width: 415px) {
+
+	.hero {
 		padding-bottom: 150px;
 		padding-top: 25px;
 
 		.text-wrapper {
 			margin-bottom: 70px;
 
-			.myName{
+			.myName {
 				font-size: 7em;
 			}
 		}
 	}
 
-	.navbar{
-		.navbar-brand{
+	.navbar {
+		.navbar-brand {
 			font-size: 1.8em;
 		}
 
-		.navbar-nav a{
+		.navbar-nav a {
 			margin-top: 16px;
 		}
 	}
 
-	.about-box{
+	.about-box {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-	 }
+	}
 
-	 #skills li {
+	#skills li {
 		display: inline-block;
 		font-size: 0.8em;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
 		width: 140px;
-	  }
+	}
 
-	 .pic-about{
+	.pic-about {
 		margin-left: 0px;
 		margin-top: 10px;
 		height: 250px;
 		width: 250px;
-	  }
+	}
 
-	  .portfolio-wrapper {
+	.portfolio-wrapper {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
 
 		.portfolio-item {
 			margin-top: 20px;
-	  }
+		}
 	}
-	
+
 }
-  
+
 /*//////////////////////////////////*/
 /* RESPONSIVE DESIGN * iPhone 6/7/8 */
 /*//////////////////////////////////*/
-  
-  @media (max-width: 376px) {
+
+@media (max-width: 376px) {
 
 	.hero {
 		padding-bottom: 200px;
@@ -597,53 +597,53 @@ a[href] {
 		.text-wrapper {
 			margin-bottom: 40px;
 
-			.myName{
+			.myName {
 				font-size: 7em;
 			}
 		}
 	}
 
-	.navbar{
-		.navbar-brand{
+	.navbar {
+		.navbar-brand {
 			font-size: 1.6em;
 		}
 
-		.navbar-nav a{
+		.navbar-nav a {
 			margin-top: 16px;
 		}
 	}
 
-	.about-box{
+	.about-box {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-	 }
+	}
 
-	 #skills li {
+	#skills li {
 		display: inline-block;
 		font-size: 0.8em;
 		height: 25px;
 		margin-top: 30px;
 		margin-right: 2px;
 		width: 140px;
-	  }
+	}
 
-	 .pic-about{
+	.pic-about {
 		margin-left: 0px;
 		margin-top: 10px;
 		height: 200px;
 		width: 200px;
-	  }
+	}
 
-	  .portfolio-wrapper {
+	.portfolio-wrapper {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
 
 		.portfolio-item {
 			margin-top: 20px;
-	  }
+		}
 	}
 }
 
@@ -658,35 +658,35 @@ a[href] {
 		padding-top: 20px;
 
 		.text-wrapper {
-	
-			.myName{
+
+			.myName {
 				font-size: 6em;
 			}
 		}
 	}
 
-	.navbar{
-		.navbar-brand{
+	.navbar {
+		.navbar-brand {
 			font-size: 1.2em;
 		}
 
-		.navbar-nav a{
+		.navbar-nav a {
 			margin-top: 16px;
 		}
 	}
 
-	.about-box{
+	.about-box {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-	 }
+	}
 
-	 #skills {
-		 margin-left: 0px;
-	 }
+	#skills {
+		margin-left: 0px;
+	}
 
-	 #skills li {
+	#skills li {
 		display: flex;
 		flex-direction: row;
 		font-size: 0.8em;
@@ -695,23 +695,22 @@ a[href] {
 		margin-right: 0px;
 		margin-left: 0px;
 		width: 140px;
-	  }
+	}
 
-	 .pic-about{
+	.pic-about {
 		height: 200px;
 		margin-left: 0px;
 		margin-top: 10px;
 		width: 200px;
-	  }
+	}
 
-	  .portfolio-wrapper {
+	.portfolio-wrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 		.portfolio-item {
 			margin-top: 20px;
-	  }
+		}
 	}
 }
-
