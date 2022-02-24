@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
+import { Skills } from "../components/Skills";
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
@@ -104,33 +105,7 @@ export default function About() {
                   working with recently:
                   <br />
                   <ul id="skills">
-                    <li>
-                      <i className="fas fa-caret-right"></i> JavaScript
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> React JS
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> Next JS
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> Gatsby JS
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> Node JS
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> Express JS
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> MongoDB
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> HTML
-                    </li>
-                    <li>
-                      <i className="fas fa-caret-right"></i> (S)CSS
-                    </li>
+                    <Skills />
                   </ul>
                 </p>
               </div>
