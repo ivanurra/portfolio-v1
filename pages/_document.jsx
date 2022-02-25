@@ -5,7 +5,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             nonce="${NONCE}"
             async
