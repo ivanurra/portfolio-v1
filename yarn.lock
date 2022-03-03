@@ -1904,9 +1904,9 @@
   "version" "0.8.3"
 
 "react-scroll@^1.8.2":
-  "integrity" "sha512-VcYFWDV2yGeuqeVCt3vxWTGWT4yCcefXOgvNZ16hSD0QTFzNNWiyZKWAVEgmz22PTKJlwRkspALaFI5+cr73OQ=="
-  "resolved" "https://registry.npmjs.org/react-scroll/-/react-scroll-1.8.5.tgz"
-  "version" "1.8.5"
+  "integrity" "sha512-VbbvjzLXvCjr2kiiG/lpLFim6mHpkXMdvOXQqwoSnUKyQPNmAo72r46x9C5PTLPSJq/dBd0gwrlZnnxqj5Yz1Q=="
+  "resolved" "https://registry.npmjs.org/react-scroll/-/react-scroll-1.8.6.tgz"
+  "version" "1.8.6"
   dependencies:
     "lodash.throttle" "^4.1.1"
     "prop-types" "^15.7.2"
