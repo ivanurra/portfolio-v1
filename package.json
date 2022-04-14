@@ -10,14 +10,14 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^4.6.0",
-    "caniuse-lite": "^1.0.30001327",
+    "caniuse-lite": "^1.0.30001332",
     "framer-motion": "^3.10.6",
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
-    "react-intersection-observer": "^8.32.0",
-    "react-scroll": "^1.8.2",
+    "react-intersection-observer": "^8.34.0",
+    "react-scroll": "^1.8.7",
     "sass": "^1.50.0"
   }
 }
