@@ -11,6 +11,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^4.6.0",
     "caniuse-lite": "^1.0.30001346",
+    "canvas-confetti": "^1.5.1",
     "framer-motion": "^3.10.6",
     "next": "^11.0.1",
     "react": "^17.0.2",
