@@ -6,11 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Navigation() {
   return (
-    <Navbar
-      expand="lg"
-      variant="dark"
-      className="fixed-top color-nav"
-    >
+    <Navbar expand="lg" variant="dark" className="fixed-top color-nav">
       <motion.div
         initial="hidden"
         animate="visible"
