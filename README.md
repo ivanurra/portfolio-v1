@@ -1,6 +1,8 @@
 # PORTFOLIO - ivanurra.dev
 
-My portfolio website. Built with NextJS.
+My portfolio as Full Stack Web Developer.
+ 
+Built with NextJS.
 
 
 ![Screenshot](public/mockup-pic.jpg)
