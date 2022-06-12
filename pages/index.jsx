@@ -86,7 +86,7 @@ export default function Home() {
               <i className="fas fa-paper-plane"></i>Contact me
             </a>
             <Link href="/resumeivanurra.pdf">
-              <a className="cta-resume" target="_blank">
+              <a className="cta-resume" target="_blank" download>
                 <i className="fas fa-file-alt"></i>Resume
               </a>
             </Link>

@@ -38,6 +38,10 @@ a[href] {
   margin-right: 10px;
   background-color: #222222;
 
+  a {
+    text-decoration: none;
+  }
+
   .navbar-brand {
     color: #fefdfa;
     font-size: 1.8em;
