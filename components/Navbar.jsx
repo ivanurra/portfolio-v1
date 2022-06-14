@@ -1,10 +1,23 @@
 import React from "react";
-import LinkNext from "next/link";
 import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 import { motion } from "framer-motion";
+import confetti from "canvas-confetti";
 
 export default function Navigation() {
+  const onToggleConfetti = () => {
+    confetti({
+      zIndex: 999,
+      particleCount: 200,
+      spread: 160,
+      angle: -90,
+      origin: {
+        x: 1,
+        y: 0,
+      },
+    });
+  };
+
   return (
     <Navbar expand="lg" variant="dark" className="fixed-top color-nav">
       <motion.div
@@ -60,7 +73,7 @@ export default function Navigation() {
                 },
               }}
             >
-              <a href="/about" style={{ textDecoration: "none" }}>
+              <a href="/about">
                 <span className="color-number">01.</span>About
               </a>
             </motion.div>
@@ -91,7 +104,7 @@ export default function Navigation() {
                 },
               }}
             >
-              <a href="/portfolio" style={{ textDecoration: "none" }}>
+              <a href="/portfolio">
                 <span className="color-number">02.</span>Portfolio
               </a>
             </motion.div>
@@ -122,46 +135,41 @@ export default function Navigation() {
                 },
               }}
             >
-              <a
-                href="/contact"
-                style={{ textDecoration: "none" }}
-                className=""
-              >
+              <a href="/contact">
                 <span className="color-number">03.</span>Contact
               </a>
             </motion.div>
           </Link>
 
-          <Link to="resume">
-            <LinkNext href="/resumeivanurra.pdf">
-              <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={{
-                  hidden: {
-                    scale: 1,
-                    opacity: 0,
+          <a>
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    duration: 2.5,
+                    delay: 0,
                   },
-                  visible: {
-                    scale: 1,
-                    opacity: 1,
-                    transition: {
-                      duration: 2.5,
-                      delay: 0,
-                    },
-                  },
-                }}
+                },
+              }}
+            >
+              <a
+                href="/resumeivanurra.pdf"
+                className="resume"
+                download
+                onClick={onToggleConfetti}
               >
-                <a
-                  href="/resumeivanurra.pdf"
-                  className="resume"
-                  style={{ textDecoration: "none" }}
-                >
-                  Resume
-                </a>
-              </motion.div>
-            </LinkNext>
-          </Link>
+                Resume
+              </a>
+            </motion.div>
+          </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
