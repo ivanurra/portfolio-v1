@@ -6,8 +6,22 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Portfolio from "./portfolio";
 import { motion } from "framer-motion";
+import confetti from "canvas-confetti";
 
 export default function Home() {
+  const onToggleConfetti = () => {
+    confetti({
+      zIndex: 999,
+      particleCount: 200,
+      spread: 160,
+      angle: -90,
+      origin: {
+        x: 1,
+        y: 0,
+      },
+    });
+  };
+
   return (
     <>
       <Head>
@@ -86,7 +100,12 @@ export default function Home() {
               <i className="fas fa-paper-plane"></i>Contact me
             </a>
             <Link href="/resumeivanurra.pdf">
-              <a className="cta-resume" target="_blank" download>
+              <a
+                className="cta-resume"
+                target="_blank"
+                download
+                onClick={onToggleConfetti}
+              >
                 <i className="fas fa-file-alt"></i>Resume
               </a>
             </Link>
