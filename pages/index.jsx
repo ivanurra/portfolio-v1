@@ -6,24 +6,20 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Portfolio from "./portfolio";
 import { motion } from "framer-motion";
-import confetti from "canvas-confetti";
 
 export default function Home() {
-  const onToggleConfetti = () => {
-    confetti({
-      // particleCount: 240,
-      // spread: 80,
-      // origin: { y: 0.63, x: 0.32 },
-      zIndex: 999,
-      particleCount: 200,
-      spread: 160,
-      angle: -90,
-      origin: {
-        x: 0.5,
-        y: 0,
-      },
-    });
-  };
+  // const onToggleConfetti = () => {
+  //   confetti({
+  //     zIndex: 999,
+  //     particleCount: 200,
+  //     spread: 160,
+  //     angle: -90,
+  //     origin: {
+  //       x: 0.5,
+  //       y: 0,
+  //     },
+  //   });
+  // };
 
   return (
     <>
@@ -107,7 +103,7 @@ export default function Home() {
                 className="cta-resume"
                 target="_blank"
                 download
-                onClick={onToggleConfetti}
+                // onClick={onToggleConfetti}
               >
                 <i className="fas fa-file-alt"></i>Resume
               </a>

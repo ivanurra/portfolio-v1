@@ -2,21 +2,20 @@ import React from "react";
 import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 import { motion } from "framer-motion";
-import confetti from "canvas-confetti";
 
 export default function Navigation() {
-  const onToggleConfetti = () => {
-    confetti({
-      zIndex: 999,
-      particleCount: 200,
-      spread: 160,
-      angle: -90,
-      origin: {
-        x: 1,
-        y: 0,
-      },
-    });
-  };
+  // const onToggleConfetti = () => {
+  //   confetti({
+  //     zIndex: 999,
+  //     particleCount: 200,
+  //     spread: 160,
+  //     angle: -90,
+  //     origin: {
+  //       x: 1,
+  //       y: 0,
+  //     },
+  //   });
+  // };
 
   return (
     <Navbar expand="lg" variant="dark" className="fixed-top color-nav">
@@ -164,7 +163,7 @@ export default function Navigation() {
                 href="/resumeivanurra.pdf"
                 className="resume"
                 download
-                onClick={onToggleConfetti}
+                // onClick={onToggleConfetti}
               >
                 Resume
               </a>
