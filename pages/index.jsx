@@ -1,3 +1,4 @@
+import { useState } from "react";
 import About from "./about";
 import Footer from "../components/Footer";
 import Contact from "./contact";
@@ -6,21 +7,34 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Portfolio from "./portfolio";
 import { motion } from "framer-motion";
+import Confetti from "react-dom-confetti";
+
+const confettiConfig = {
+  angle: "85",
+  spread: "75",
+  startVelocity: 40,
+  elementCount: "50",
+  dragFriction: 0.12,
+  duration: 3000,
+  stagger: 3,
+  width: "10px",
+  height: "10px",
+  perspective: "500px",
+  colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff"],
+};
 
 export default function Home() {
-  // const onToggleConfetti = () => {
-  //   confetti({
-  //     zIndex: 999,
-  //     particleCount: 200,
-  //     spread: 160,
-  //     angle: -90,
-  //     origin: {
-  //       x: 0.5,
-  //       y: 0,
-  //     },
-  //   });
-  // };
+  const [resumeHovered, setResumeHovered] = useState(false);
 
+  const handleResumeHoverIn = (e) => {
+    e.preventDefault();
+    setResumeHovered(true);
+  };
+
+  const handleResumeHoverOut = (e) => {
+    e.preventDefault();
+    setResumeHovered(false);
+  };
   return (
     <>
       <Head>
@@ -102,9 +116,10 @@ export default function Home() {
               <a
                 className="cta-resume"
                 target="_blank"
-                download
-                // onClick={onToggleConfetti}
+                onMouseEnter={handleResumeHoverIn}
+                onMouseLeave={handleResumeHoverOut}
               >
+                <Confetti active={resumeHovered} config={confettiConfig} />
                 <i className="fas fa-file-alt"></i>Resume
               </a>
             </Link>
@@ -112,6 +127,7 @@ export default function Home() {
         </motion.div>
       </section>
       <About />
+
       <Portfolio />
       <Contact />
       <Footer />
