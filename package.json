@@ -11,7 +11,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@nextui-org/react": "^1.0.0-beta.9",
     "bootstrap": "^4.6.0",
-    "caniuse-lite": "^1.0.30001359",
+    "caniuse-lite": "^1.0.30001361",
     "framer-motion": "^3.10.6",
     "next": "^11.0.1",
     "react": "^18.2.0",
