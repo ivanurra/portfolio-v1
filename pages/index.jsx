@@ -95,10 +95,9 @@ export default function Home() {
             </h1>
             <div className="col-xl-7 pl-0">
               <p className="myName-description">
-                I'm a Full Stack Web Developer specializing in building (and
-                occasionally designing) exceptional digital experiences.
-                Currently, I'm focused on building usable, memorable and
-                exclusive digital products at{" "}
+                I'm a Full Stack Web Developer specializing in building
+                exceptional digital experiences. Currently, I'm focused on
+                building usable, memorable and exclusive digital products at{" "}
                 <a
                   href="https://secuoyas.com/"
                   target="_blank"
