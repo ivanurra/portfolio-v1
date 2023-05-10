@@ -12,9 +12,6 @@ export const Skills = () => {
         <i className="fas fa-caret-right"></i> Next JS
       </li>
       <li>
-        <i className="fas fa-caret-right"></i> Gatsby JS
-      </li>
-      <li>
         <i className="fas fa-caret-right"></i> Node JS
       </li>
       <li>
@@ -37,6 +34,9 @@ export const Skills = () => {
       </li>
       <li>
         <i className="fas fa-caret-right"></i> Kubernetes
+      </li>
+      <li>
+        <i className="fas fa-caret-right"></i> AWS
       </li>
     </div>
   );
