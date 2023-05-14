@@ -181,15 +181,6 @@ export default function Portfolio() {
                     <span style={{ display: "none" }}>Git Cocktail Guide</span>
                   </i>
                 </a>
-                {/* <a
-                  href="https://cocktailguide.herokuapp.com"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <i className="fas fa-external-link-alt">
-                    <span style={{ display: "none" }}>Web Cocktail Guide</span>
-                  </i>
-                </a> */}
                 <div className="portfolio-category">
                   App about cocktails. You can choose hundreds of recipes and
                   you can sign up to upload your own creations and share them
