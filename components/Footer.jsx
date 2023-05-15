@@ -51,7 +51,7 @@ function Footer() {
         </ul>
 
         <p className="footer-name">
-          &copy; {new Date().getFullYear()} Designed & Built by Ivan Urra
+          &copy; {new Date().getFullYear()} Designed & Built by Iván Urra
         </p>
       </nav>
     </footer>
