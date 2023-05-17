@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import About from "./about";
 import Footer from "../components/Footer";
 import Contact from "./contact";
@@ -6,7 +7,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Portfolio from "./portfolio";
-import { motion } from "framer-motion";
 import Confetti from "react-dom-confetti";
 
 const confettiConfig = {

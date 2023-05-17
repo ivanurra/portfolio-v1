@@ -45,6 +45,6 @@ https://ivanurra.dev
 
 ## License 📄
 
-Copyright (c) 2022 Iván Urra
+Copyright (c) 2023 Iván Urra
 
 MIT License. 

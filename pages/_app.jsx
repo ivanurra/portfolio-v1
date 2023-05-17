@@ -1,7 +1,7 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/app.scss";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/app.scss";
 import * as ga from "../lib/ga";
 
 function MyApp({ Component, pageProps }) {
