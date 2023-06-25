@@ -1,4 +1,4 @@
-# PORTFOLIO - ivanurra.dev
+# PORTFOLIO
 
 My portfolio as Full Stack Web Developer.
  
