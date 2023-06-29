@@ -1,9 +1,6 @@
 # PORTFOLIO
 
-My portfolio as Full Stack Web Developer.
- 
-Built with NextJS.
-
+My first and old portfolio as a developer. Built with NextJS.
 
 ![Screenshot](public/mockup-pic.jpg)
 
